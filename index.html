@@ -3,217 +3,209 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio BTS SIO SLAM - Développement d'applications" />
+  <meta name="theme-color" content="#6366f1" />
   <title>Portfolio | BTS SIO SLAM</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <header class="header">
-  <div class="container header-content">
-    <div>
-      <h1 id="top">Portfolio BTS SIO SLAM</h1>
-      <p class="subtitle">Étudiant(e) – Développement d’applications</p>
+  <div class="header-container">
+    <div class="header-brand">
+      <h1>JIBRIL PORTFOLIO</h1>
+      <p class="brand-subtitle">Developer • BTS SIO SLAM</p>
     </div>
 
-    <nav>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar">
       <ul class="nav-list">
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#skills">Compétences</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#internships">Stages</a></li>
-        <li><a href="#bts">Épreuves (E5/E6)</a></li>
-        <li><a href="#watch">Veille</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
+        <li><a href="#internships" class="nav-link">Stages</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-  <!-- A PROPOS -->
-  <section id="about" class="section container">
-    <h2>À propos de moi</h2>
-    <p>
-      Je suis étudiant(e) en <strong>BTS SIO option SLAM</strong>. J’aime développer des sites et applications
-      (front + back) et travailler en mode projet (Git/GitHub, tests, documentation).
-    </p>
-
-    <div class="buttons-row">
-      <a class="btn" href="#" download>📄 Télécharger mon CV</a>
-      <a class="btn btn-outline" href="#" target="_blank" rel="noreferrer">💻 GitHub</a>
-      <a class="btn btn-outline" href="#" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
-    </div>
-  </section>
-
-  <!-- COMPETENCES -->
-  <section id="skills" class="section container">
-    <h2>Compétences</h2>
-
-    <div class="grid-3">
-      <article class="card">
-        <h3>Développement</h3>
-        <ul class="list">
-          <li>HTML / CSS / JavaScript</li>
-          <li>Back-end : PHP / Node / Python (à préciser)</li>
-          <li>API REST, JSON</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h3>Base de données</h3>
-        <ul class="list">
-          <li>Modélisation (MCD/MLD)</li>
-          <li>SQL (CRUD, jointures)</li>
-          <li>MySQL / PostgreSQL (à préciser)</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h3>Outils & Méthodes</h3>
-        <ul class="list">
-          <li>Git / GitHub</li>
-          <li>VS Code</li>
-          <li>UML, gestion de projet</li>
-        </ul>
-      </article>
-    </div>
-  </section>
-
-  <!-- PROJETS -->
-  <section id="projects" class="section container">
-    <h2>Mes projets</h2>
-
-    <div class="projects-container">
-      <article class="project-card">
-        <h3>Projet 1 – Portfolio</h3>
-        <p>Site vitrine responsive (HTML/CSS) + sections BTS (E5/E6).</p>
-        <div class="meta">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Git</span>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Développeur en<br>Devenir 💻</h1>
+        <p class="hero-subtitle">Étudiant(e) en BTS SIO - Option SLAM | Passionné par le développement web et mobile</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
         </div>
-      </article>
-
-      <article class="project-card">
-        <h3>Projet 2 – Application (à compléter)</h3>
-        <p>Application de gestion (ex: bijoux, stock, clients…).</p>
-        <div class="meta">
-          <span class="tag">SQL</span><span class="tag">Back-end</span><span class="tag">CRUD</span>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <h3>Projet 3 – API / Services</h3>
-        <p>API REST + documentation + tests (selon ton projet).</p>
-        <div class="meta">
-          <span class="tag">API</span><span class="tag">JSON</span><span class="tag">Tests</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- STAGES -->
-  <section id="internships" class="section container">
-    <h2>Stages</h2>
-
-    <div class="grid-2">
-      <article class="card">
-        <h3>Stage 1 (1re année)</h3>
-        <p><strong>Entreprise :</strong> …</p>
-        <p><strong>Missions :</strong> …</p>
-        <p><strong>Technos :</strong> …</p>
-      </article>
-
-      <article class="card">
-        <h3>Stage 2 (2e année)</h3>
-        <p><strong>Entreprise :</strong> …</p>
-        <p><strong>Missions :</strong> …</p>
-        <p><strong>Technos :</strong> …</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- EPREUVES BTS -->
-  <section id="bts" class="section container">
-    <h2>Épreuves BTS</h2>
-
-    <div class="grid-2">
-      <article class="card">
-        <h3>Épreuve E5</h3>
-        <p>
-          <strong>E5 – Support et mise à disposition de services informatiques</strong><br>
-          Présentation de réalisations/projets + preuves + compétences mobilisées.
-        </p>
-        <div class="buttons-row">
-          <a class="btn" href="#" download>📥 Télécharger la Grille E5 (PDF)</a>
-          <a class="btn btn-outline" href="#e5-grid">📌 Voir la Grille E5</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3>Épreuve E6</h3>
-        <p>
-          <strong>E6 – Cybersécurité des services informatiques</strong><br>
-          Analyse de risques, mesures de sécurité, conformité et bonnes pratiques.
-        </p>
-        <div class="buttons-row">
-          <a class="btn btn-outline" href="#" download>📥 Dossier E6 (PDF)</a>
-        </div>
-      </article>
-    </div>
-
-    <!-- GRILLE E5 (TABLEAU) -->
-    <div id="e5-grid" class="card mt">
-      <h3>Grille E5 (à compléter)</h3>
-      <p class="small">
-        Mets ici tes réalisations (projets, stages…) avec preuves (liens GitHub, captures, docs).
-      </p>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Réalisation</th>
-              <th>Contexte</th>
-              <th>Technos</th>
-              <th>Activités réalisées</th>
-              <th>Preuves (liens)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Projet …</td>
-              <td>Stage / perso / cours</td>
-              <td>…</td>
-              <td>CRUD, API, tests, doc…</td>
-              <td><a href="#" target="_blank" rel="noreferrer">GitHub / PDF</a></td>
-            </tr>
-            <tr>
-              <td>Projet …</td>
-              <td>…</td>
-              <td>…</td>
-              <td>…</td>
-              <td><a href="#" target="_blank" rel="noreferrer">Lien</a></td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </section>
 
-  <!-- VEILLE -->
-  <section id="watch" class="section container">
-    <h2>Veille technologique</h2>
-    <p>
-      Je réalise une veille sur : cybersécurité, frameworks web, bonnes pratiques (OWASP, Git, API…).
-    </p>
+  <!-- A PROPOS -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis étudiant(e) en <strong>BTS SIO option SLAM</strong>. J'aime développer des sites et applications
+        (front + back) et travailler en mode projet (Git/GitHub, tests, documentation).
+      </p>
 
-    <div class="grid-2">
-      <article class="card">
-        <h3>Sujets suivis</h3>
-        <ul class="list">
-          <li>OWASP Top 10</li>
-          <li>Authentification / JWT</li>
-          <li>RGPD (bases)</li>
-        </ul>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>🎯 Objectif</h3>
+          <p>Devenir un développeur polyvalent capable de créer des solutions web modernes et performantes.</p>
+        </div>
+        <div class="about-card">
+          <h3>🚀 Passion</h3>
+          <p>Web développement, architecture logicielle, et bonnes pratiques de programmation.</p>
+        </div>
+        <div class="about-card">
+          <h3>📚 Formation</h3>
+          <p>BTS SIO SLAM - Apprentissage continu des technologies modernes et de l'innovation.</p>
+        </div>
+      </div>
+
+      <div class="about-buttons">
+        <a class="btn btn-primary" href="#" download>📄 Télécharger mon CV</a>
+        <a class="btn btn-secondary" href="#" target="_blank" rel="noreferrer">💻 GitHub</a>
+        <a class="btn btn-secondary" href="#" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Mes Compétences</h2>
+
+      <div class="skills-list">
+        <div class="skill-item">
+          <div class="skill-icon">🎨</div>
+          <h3>Front-end</h3>
+          <p>HTML5, CSS3, JavaScript ES6+, React</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">⚙️</div>
+          <h3>Back-end</h3>
+          <p>PHP, Node.js, Python, API REST</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🗄️</div>
+          <h3>Bases de données</h3>
+          <p>MySQL, PostgreSQL, MongoDB, SQL</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🔧</div>
+          <h3>Outils & Méthodes</h3>
+          <p>Git, GitHub, VS Code, UML, Agile</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🔒</div>
+          <h3>Sécurité</h3>
+          <p>OWASP, JWT, Authentification, RGPD</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first, UX/UI, Accessibility</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Mes Projets</h2>
+
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header">
+            <h3>Portfolio Personnel</h3>
+            <span class="badge">2025</span>
+          </div>
+          <p>Site vitrine responsive avec sections optimisées. Vitrine de mes compétences et réalisations.</p>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Git</span>
+          </div>
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Application de Gestion</h3>
+            <span class="badge">Développement</span>
+          </div>
+          <p>Application web avec authentification, base de données et interface d'administration complète.</p>
+          <div class="tags">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">CRUD</span>
+            <span class="tag">Architecture</span>
+          </div>
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>API REST</h3>
+            <span class="badge">Découverte</span>
+          </div>
+          <p>API REST avec documentation Swagger, validation des données et gestion des erreurs.</p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Tests</span>
+          </div>
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAGES -->
+  <section id="internships" class="section">
+    <div class="container">
+      <h2>Mes Stages</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Stage 1ère année</h3>
+            <p class="timeline-date">Période : [Date début] - [Date fin]</p>
+            <p><strong>Entreprise :</strong> Nom de l'entreprise</p>
+            <p><strong>Missions :</strong> Description des missions réalisées</p>
+            <p><strong>Technos :</strong> Technologies utilisées</p>
+            <a href="#" class="btn-small">Rapport de stage</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+>
       </article>
 
       <article class="card">
@@ -253,4 +245,101 @@
 </footer>
 
 </body>
-</html>
+</html>">
+    <div class="container">
+      <h2>Me Contacter</h2>
+      <p>Vous avez une question ou une opportunité ? N'hésitez pas à me contacter !</p>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required placeholder="Votre nom">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="votre@email.com">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" name="subject" required placeholder="Objet du message">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Votre message..." rows="6"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+      </form>
+
+      <div class="contact-info">
+        <p>Vous pouvez aussi me joindre directement :</p>
+        <ul class="contact-list">
+          <li>📧 <strong>Email :</strong> <a href="mailto:your@email.com">your@email.com</a></li>
+          <li>💼 <strong>LinkedIn :</strong> <a href="#" target="_blank">linkedin.com/in/yourprofile</a></li>
+          <li>💻 <strong>GitHub :</strong> <a href="#" target="_blank">github.com/yourprofile</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="social-links">
+      <a href="#" title="GitHub" aria-label="GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="#" title="LinkedIn" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+      </a>
+      <a href="#" title="Email" aria-label="Email">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+    <p>&copy; 2026 Jibril Portfolio. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+<script>
+  // Menu toggle
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  menuToggle?.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+
+  // Close menu when a link is clicked
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navbar.classList.remove('active');
+    });
+  });
+
+  // Scroll to top button
+  const scrollToTopBtn = document.querySelector('.scroll-to-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn?.classList.add('show');
+    } else {
+      scrollToTopBtn?.classList.remove('show');
+    }
+  });
+
+  scrollToTopBtn?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Form submission
+  document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Merci pour votre message ! Je vous répondrai bientôt.');
+    e.target.reset();
+  });
+</script
