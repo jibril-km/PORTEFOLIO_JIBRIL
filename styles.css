@@ -960,3 +960,137 @@ footer {
 .animate-pulse {
   animation: pulse 2s infinite;
 }
+
+/* ========================================
+   ADDITIONS (Portfolio V2)
+   ======================================== */
+
+.nav-link.is-active {
+  color: var(--light-text);
+}
+
+.hero-badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  justify-content:center;
+}
+
+.pill{
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  padding:.45rem .75rem;
+  border-radius:999px;
+  border:1px solid var(--border-color);
+  background: rgba(30, 41, 59, 0.55);
+  color: var(--secondary-text);
+  font-weight:600;
+  font-size:.85rem;
+}
+
+.softskills{
+  margin-top: 2.5rem;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.6), rgba(51, 65, 85, 0.4));
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.softskills h3{
+  margin-bottom: .75rem;
+}
+
+.softskills-list{
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .5rem 1rem;
+  padding-left: 0;
+}
+
+.softskills-list li{
+  color: var(--secondary-text);
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.softskills-list li::before{
+  content: "•";
+  position:absolute;
+  left:0;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.list{
+  margin-top: .75rem;
+  padding-left: 1.2rem;
+  color: var(--secondary-text);
+}
+
+.list li{
+  margin: .35rem 0;
+}
+
+.cv-actions{
+  display:flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 1.25rem;
+}
+
+.pdf-embed{
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.35);
+}
+
+.pdf-embed iframe{
+  width: 100%;
+  height: 720px;
+  border: 0;
+}
+
+.pdf-fallback{
+  padding: 1rem;
+  color: var(--secondary-text);
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+.contact-card{
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.5));
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.contact-actions{
+  display:flex;
+  gap:1rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.form-hint{
+  margin-top: .75rem;
+  color: rgba(203, 213, 225, 0.7);
+  font-size: .9rem;
+}
+
+@media (max-width: 900px){
+  .contact-grid{
+    grid-template-columns: 1fr;
+  }
+  .pdf-embed iframe{
+    height: 560px;
+  }
+}

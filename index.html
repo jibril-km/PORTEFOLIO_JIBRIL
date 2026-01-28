@@ -3,35 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio BTS SIO SLAM - Développement d'applications" />
+  <meta name="description" content="Portfolio BTS SIO SLAM — Jibril Khattaf Mendil" />
   <meta name="theme-color" content="#6366f1" />
-  <title>Portfolio | BTS SIO SLAM</title>
+  <title>Portfolio | Jibril Khattaf Mendil (BTS SIO SLAM)</title>
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
 <header class="header">
   <div class="header-container">
     <div class="header-brand">
-      <h1>JIBRIL PORTFOLIO</h1>
-      <p class="brand-subtitle">Developer • BTS SIO SLAM</p>
+      <h1>Jibril Khattaf Mendil</h1>
+      <p class="brand-subtitle">BTS SIO SLAM • Développement web • Bases de données</p>
     </div>
 
-    <button class="menu-toggle" aria-label="Toggle menu">
-      <span></span>
-      <span></span>
-      <span></span>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
     </button>
 
-    <nav class="navbar">
+    <nav id="main-nav" class="navbar" aria-label="Navigation principale">
       <ul class="nav-list">
         <li><a href="#about" class="nav-link">À propos</a></li>
         <li><a href="#skills" class="nav-link">Compétences</a></li>
         <li><a href="#projects" class="nav-link">Projets</a></li>
         <li><a href="#internships" class="nav-link">Stages</a></li>
+        <li><a href="#veille" class="nav-link">Veille</a></li>
+        <li><a href="#cv" class="nav-link">CV</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </nav>
@@ -39,15 +40,29 @@
 </header>
 
 <main>
-  <!-- HERO SECTION -->
-  <section class="hero">
+  <!-- HERO -->
+  <section class="hero" aria-label="Présentation">
     <div class="container">
       <div class="hero-content">
-        <h1 class="hero-title">Développeur en<br>Devenir 💻</h1>
-        <p class="hero-subtitle">Étudiant(e) en BTS SIO - Option SLAM | Passionné par le développement web et mobile</p>
+        <h1 class="hero-title">Développeur<br>en devenir 💻</h1>
+        <p class="hero-subtitle">
+          Étudiant en <strong>BTS SIO — option SLAM</strong> à Nice. Je développe des sites et applications web,
+          je travaille sur les bases de données et j’ai des notions en cybersécurité & réseaux.
+        </p>
+
         <div class="cta-buttons">
           <a href="#projects" class="btn btn-primary">Voir mes projets</a>
-          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+          <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" class="btn btn-secondary" download>Télécharger mon CV</a>
+          <a href="https://github.com/jibril-km" class="btn btn-secondary" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+
+        <div class="hero-badges" aria-label="Points forts">
+          <span class="pill">HTML/CSS</span>
+          <span class="pill">PHP</span>
+          <span class="pill">SQL / MySQL</span>
+          <span class="pill">JavaScript (bases)</span>
+          <span class="pill">UML / Merise</span>
+          <span class="pill">Git/GitHub</span>
         </div>
       </div>
     </div>
@@ -56,31 +71,32 @@
   <!-- A PROPOS -->
   <section id="about" class="section">
     <div class="container">
-      <h2>À propos de moi</h2>
+      <h2>À propos</h2>
       <p>
-        Je suis étudiant(e) en <strong>BTS SIO option SLAM</strong>. J'aime développer des sites et applications
-        (front + back) et travailler en mode projet (Git/GitHub, tests, documentation).
+        Après une première année en <strong>STAPS (sciences du sport)</strong>, sans lien avec l’informatique,
+        j’ai effectué une <strong>réorientation</strong> vers le BTS SIO option SLAM afin de construire un projet
+        professionnel solide dans le développement.
       </p>
 
       <div class="about-grid">
         <div class="about-card">
           <h3>🎯 Objectif</h3>
-          <p>Devenir un développeur polyvalent capable de créer des solutions web modernes et performantes.</p>
+          <p>Continuer mes études (école / alternance) et progresser vers un profil développeur polyvalent.</p>
         </div>
         <div class="about-card">
-          <h3>🚀 Passion</h3>
-          <p>Web développement, architecture logicielle, et bonnes pratiques de programmation.</p>
+          <h3>🧩 Méthode</h3>
+          <p>Projets concrets, structuration (UML/Merise), Git/GitHub, documentation et amélioration continue.</p>
         </div>
         <div class="about-card">
-          <h3>📚 Formation</h3>
-          <p>BTS SIO SLAM - Apprentissage continu des technologies modernes et de l'innovation.</p>
+          <h3>📍 Localisation</h3>
+          <p>Carros (06) — Région <strong>Provence-Alpes-Côte d’Azur</strong>.</p>
         </div>
       </div>
 
       <div class="about-buttons">
-        <a class="btn btn-primary" href="#" download>📄 Télécharger mon CV</a>
-        <a class="btn btn-secondary" href="#" target="_blank" rel="noreferrer">💻 GitHub</a>
-        <a class="btn btn-secondary" href="#" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+        <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>📄 Télécharger mon CV</a>
+        <a class="btn btn-secondary" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>📝 Lettre de motivation</a>
+        <a class="btn btn-secondary" href="https://github.com/jibril-km" target="_blank" rel="noreferrer">💻 GitHub</a>
       </div>
     </div>
   </section>
@@ -88,44 +104,56 @@
   <!-- COMPETENCES -->
   <section id="skills" class="section">
     <div class="container">
-      <h2>Mes Compétences</h2>
+      <h2>Compétences</h2>
+      <p>Compétences réalistes et alignées avec mon niveau de BTS SIO SLAM (2ᵉ année).</p>
 
       <div class="skills-list">
         <div class="skill-item">
           <div class="skill-icon">🎨</div>
           <h3>Front-end</h3>
-          <p>HTML5, CSS3, JavaScript ES6+, React</p>
+          <p>HTML, CSS, JavaScript (bases), Responsive</p>
         </div>
 
         <div class="skill-item">
           <div class="skill-icon">⚙️</div>
           <h3>Back-end</h3>
-          <p>PHP, Node.js, Python, API REST</p>
+          <p>PHP (bases), logique serveur, CRUD</p>
         </div>
 
         <div class="skill-item">
           <div class="skill-icon">🗄️</div>
           <h3>Bases de données</h3>
-          <p>MySQL, PostgreSQL, MongoDB, SQL</p>
+          <p>SQL, MySQL, PhpMyAdmin, modélisation</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🧠</div>
+          <h3>Conception</h3>
+          <p>UML, Merise, analyse des besoins</p>
         </div>
 
         <div class="skill-item">
           <div class="skill-icon">🔧</div>
-          <h3>Outils & Méthodes</h3>
-          <p>Git, GitHub, VS Code, UML, Agile</p>
+          <h3>Outils</h3>
+          <p>Git/GitHub, WAMP, Notepad++, VS Code</p>
         </div>
 
         <div class="skill-item">
           <div class="skill-icon">🔒</div>
-          <h3>Sécurité</h3>
-          <p>OWASP, JWT, Authentification, RGPD</p>
+          <h3>Notions</h3>
+          <p>Réseaux & cybersécurité (bases)</p>
         </div>
+      </div>
 
-        <div class="skill-item">
-          <div class="skill-icon">📱</div>
-          <h3>Responsive Design</h3>
-          <p>Mobile-first, UX/UI, Accessibility</p>
-        </div>
+      <div class="softskills">
+        <h3>Soft skills</h3>
+        <ul class="softskills-list">
+          <li>Rigueur et sérieux</li>
+          <li>Autonomie</li>
+          <li>Esprit d’équipe</li>
+          <li>Sens de l’organisation</li>
+          <li>Curiosité et motivation</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -133,53 +161,45 @@
   <!-- PROJETS -->
   <section id="projects" class="section">
     <div class="container">
-      <h2>Mes Projets</h2>
+      <h2>Projets</h2>
+      <p>Une sélection de projets (je complète au fur et à mesure). Chaque projet a un lien GitHub.</p>
 
       <div class="cards-grid">
-        <div class="card">
+        <article class="card" data-modal="p1">
           <div class="card-header">
-            <h3>Portfolio Personnel</h3>
-            <span class="badge">2025</span>
+            <h3>Portfolio</h3>
+            <span class="badge">2026</span>
           </div>
-          <p>Site vitrine responsive avec sections optimisées. Vitrine de mes compétences et réalisations.</p>
+          <p>Portfolio responsive (HTML/CSS/JS) avec sections BTS (projets, stages, veille) et liens utiles.</p>
           <div class="tags">
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Git</span>
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">GitHub Pages</span>
           </div>
-          <a href="#" class="card-link">Voir le projet →</a>
-        </div>
+          <a href="https://github.com/jibril-km/PORTEFOLIO_JIBRIL" target="_blank" rel="noreferrer" class="card-link">Voir sur GitHub →</a>
+        </article>
 
-        <div class="card">
+        <article class="card" data-modal="p2">
           <div class="card-header">
-            <h3>Application de Gestion</h3>
-            <span class="badge">Développement</span>
+            <h3>Projet Web (BTS)</h3>
+            <span class="badge">CRUD</span>
           </div>
-          <p>Application web avec authentification, base de données et interface d'administration complète.</p>
+          <p>Application web avec base de données (CRUD), pages structurées et logique back-end.</p>
           <div class="tags">
-            <span class="tag">PHP</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">CRUD</span>
-            <span class="tag">Architecture</span>
+            <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">SQL</span>
           </div>
-          <a href="#" class="card-link">Voir le projet →</a>
-        </div>
+          <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="card-link">Voir mes repos →</a>
+        </article>
 
-        <div class="card">
+        <article class="card" data-modal="p3">
           <div class="card-header">
-            <h3>API REST</h3>
-            <span class="badge">Découverte</span>
+            <h3>Mini-projet JavaScript</h3>
+            <span class="badge">JS</span>
           </div>
-          <p>API REST avec documentation Swagger, validation des données et gestion des erreurs.</p>
+          <p>Petits projets d’entraînement (DOM, logique, interactions) pour progresser en JavaScript.</p>
           <div class="tags">
-            <span class="tag">Node.js</span>
-            <span class="tag">Express</span>
-            <span class="tag">REST API</span>
-            <span class="tag">Tests</span>
+            <span class="tag">JavaScript</span><span class="tag">DOM</span><span class="tag">UI</span>
           </div>
-          <a href="#" class="card-link">Voir le projet →</a>
-        </div>
+          <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="card-link">Voir mes repos →</a>
+        </article>
       </div>
     </div>
   </section>
@@ -187,100 +207,154 @@
   <!-- STAGES -->
   <section id="internships" class="section">
     <div class="container">
-      <h2>Mes Stages</h2>
+      <h2>Stages</h2>
+      <p>Deux stages en informatique chez Ciffreo Bona (1ʳᵉ et 2ᵉ année).</p>
 
-      <div class="timeline">
+      <div class="timeline" aria-label="Timeline des stages">
         <div class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <h3>Stage 1ère année</h3>
-            <p class="timeline-date">Période : [Date début] - [Date fin]</p>
-            <p><strong>Entreprise :</strong> Nom de l'entreprise</p>
-            <p><strong>Missions :</strong> Description des missions réalisées</p>
-            <p><strong>Technos :</strong> Technologies utilisées</p>
-            <a href="#" class="btn-small">Rapport de stage</a>
+            <h3>Ciffreo Bona — Stage 2ᵉ année (BTS SIO)</h3>
+            <p class="timeline-date">12 janvier – 13 février</p>
+            <p><strong>Contributions :</strong></p>
+            <ul class="list">
+              <li>Analyse des besoins & conceptualisation d’une solution</li>
+              <li>Structuration logique et fonctionnelle du projet</li>
+              <li>Travail en collaboration avec l’équipe informatique</li>
+            </ul>
           </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
->
-      </article>
+            <h3>Ciffreo Bona — Stage 1ʳᵉ année (BTS SIO)</h3>
+            <p class="timeline-date">Période : (à préciser)</p>
+            <ul class="list">
+              <li>Découverte du système d’information</li>
+              <li>Développement & analyse de données</li>
+              <li>Contribution à la modernisation du système (AS/400)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <article class="card">
-        <h3>Sources</h3>
-        <ul class="list">
-          <li>ANSSI / CNIL (à ajouter)</li>
-          <li>Blogs / YouTube / Docs officielles</li>
-          <li>Newsletters tech</li>
-        </ul>
-      </article>
+  <!-- VEILLE -->
+  <section id="veille" class="section">
+    <div class="container">
+      <h2>Veille technologique</h2>
+      <p>Exemples de sujets et sources que je suis pour rester à jour.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-header">
+            <h3>Sujets suivis</h3>
+            <span class="badge">2026</span>
+          </div>
+          <ul class="list">
+            <li>Cybersécurité (bonnes pratiques, risques, authentification)</li>
+            <li>Écosystème JavaScript & frameworks</li>
+            <li>Bonnes pratiques web (accessibilité, performance)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h3>Sources</h3>
+            <span class="badge">Docs</span>
+          </div>
+          <ul class="list">
+            <li>MDN Web Docs</li>
+            <li>Documentation PHP / MySQL</li>
+            <li>ANSSI / CNIL (notions)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h3>Organisation</h3>
+            <span class="badge">Méthode</span>
+          </div>
+          <ul class="list">
+            <li>Notes de synthèse courtes (1 page)</li>
+            <li>Exemples + ressources + lien</li>
+            <li>Mises à jour mensuelles</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section id="cv" class="section">
+    <div class="container">
+      <h2>CV</h2>
+      <p>Vous pouvez consulter mon CV directement ici, ou le télécharger.</p>
+
+      <div class="cv-actions">
+        <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>📄 Télécharger le CV (PDF)</a>
+        <a class="btn btn-secondary" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>📝 Télécharger la lettre</a>
+      </div>
+
+      <div class="pdf-embed" role="region" aria-label="CV intégré">
+        <iframe
+          src="assets/CV_Jibril_Khattaf_Mendil.pdf"
+          title="CV de Jibril Khattaf Mendil"
+          loading="lazy"
+        ></iframe>
+        <p class="pdf-fallback">
+          Si le PDF ne s’affiche pas, <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>téléchargez-le ici</a>.
+        </p>
+      </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section container">
-    <h2>Contact</h2>
-    <form class="contact-form">
-      <label for="name">Nom</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <p>&copy; 2026 – Portfolio BTS SIO SLAM</p>
-    <a class="backtop" href="#top">⬆ Retour en haut</a>
-  </div>
-</footer>
-
-</body>
-</html>">
+  <section id="contact" class="section">
     <div class="container">
-      <h2>Me Contacter</h2>
-      <p>Vous avez une question ou une opportunité ? N'hésitez pas à me contacter !</p>
+      <h2>Contact</h2>
+      <p>Un échange, une opportunité, une question ? Écrivez-moi.</p>
 
-      <form class="contact-form">
-        <div class="form-group">
-          <label for="name">Nom complet</label>
-          <input type="text" id="name" name="name" required placeholder="Votre nom">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Coordonnées</h3>
+          <ul class="contact-list">
+            <li>📍 Carros (06)</li>
+            <li>📧 <a href="mailto:jibril.khattaf@icloud.com">jibril.khattaf@icloud.com</a></li>
+            <li>💻 <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer">github.com/jibril-km</a></li>
+          </ul>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:jibril.khattaf@icloud.com?subject=Contact%20Portfolio">Envoyer un email</a>
+            <a class="btn btn-secondary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Télécharger le CV</a>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="votre@email.com">
-        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom">
+          </div>
 
-        <div class="form-group">
-          <label for="subject">Sujet</label>
-          <input type="text" id="subject" name="subject" required placeholder="Objet du message">
-        </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="votre@email.com">
+          </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required placeholder="Votre message..." rows="6"></textarea>
-        </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" required placeholder="Objet du message">
+          </div>
 
-        <button type="submit" class="btn btn-primary">Envoyer le message</button>
-      </form>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Votre message..." rows="6"></textarea>
+          </div>
 
-      <div class="contact-info">
-        <p>Vous pouvez aussi me joindre directement :</p>
-        <ul class="contact-list">
-          <li>📧 <strong>Email :</strong> <a href="mailto:your@email.com">your@email.com</a></li>
-          <li>💼 <strong>LinkedIn :</strong> <a href="#" target="_blank">linkedin.com/in/yourprofile</a></li>
-          <li>💻 <strong>GitHub :</strong> <a href="#" target="_blank">github.com/yourprofile</a></li>
-        </ul>
+          <button type="submit" class="btn btn-primary">Générer l’email</button>
+          <p class="form-hint">Le bouton ouvre votre application mail (pas d’envoi automatique).</p>
+        </form>
       </div>
     </div>
   </section>
@@ -289,57 +363,15 @@
 <footer class="footer">
   <div class="footer-content">
     <div class="social-links">
-      <a href="#" title="GitHub" aria-label="GitHub">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-      </a>
-      <a href="#" title="LinkedIn" aria-label="LinkedIn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
-      </a>
-      <a href="#" title="Email" aria-label="Email">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      </a>
+      <a href="https://github.com/jibril-km" title="GitHub" aria-label="GitHub" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:jibril.khattaf@icloud.com" title="Email" aria-label="Email">Email</a>
     </div>
-    <p>&copy; 2026 Jibril Portfolio. Tous droits réservés.</p>
+    <p>&copy; 2026 — Jibril Khattaf Mendil • Portfolio BTS SIO SLAM</p>
   </div>
 </footer>
 
-<button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+<button class="scroll-to-top" aria-label="Retour en haut">↑</button>
 
-<script>
-  // Menu toggle
-  const menuToggle = document.querySelector('.menu-toggle');
-  const navbar = document.querySelector('.navbar');
-
-  menuToggle?.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-  });
-
-  // Close menu when a link is clicked
-  document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-      navbar.classList.remove('active');
-    });
-  });
-
-  // Scroll to top button
-  const scrollToTopBtn = document.querySelector('.scroll-to-top');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      scrollToTopBtn?.classList.add('show');
-    } else {
-      scrollToTopBtn?.classList.remove('show');
-    }
-  });
-
-  scrollToTopBtn?.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-
-  // Form submission
-  document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Merci pour votre message ! Je vous répondrai bientôt.');
-    e.target.reset();
-  });
-</script
+<script src="script.js" defer></script>
+</body>
+</html>
