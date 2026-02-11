@@ -66,7 +66,7 @@ a {
 }
 
 .container {
-  width: min(980px, calc(100% - 2rem));
+  width: min(1500px, calc(100% - 2.5rem));
   margin-inline: auto;
 }
 
@@ -213,7 +213,7 @@ main {
 .hero-layout {
   position: relative;
   z-index: 1;
-  max-width: 760px;
+  max-width: none;
 }
 
 .hero-title {
@@ -605,7 +605,7 @@ textarea:focus {
 
 @media (min-width: 1100px) {
   .container {
-    width: min(1120px, calc(100% - 4rem));
+    width: min(1680px, calc(100% - 4rem));
   }
 
   .header-inner {
@@ -618,6 +618,10 @@ textarea:focus {
 
   .hero {
     min-height: 60vh;
+  }
+
+  .section-intro {
+    max-width: 92ch;
   }
 
   .projects-grid {
