@@ -213,7 +213,7 @@ main {
 .hero-layout {
   position: relative;
   z-index: 1;
-  max-width: 880px;
+  max-width: 760px;
 }
 
 .hero-title {
@@ -310,6 +310,16 @@ a:focus-visible {
 .panel h3 {
   font-size: 1.15rem;
   margin-bottom: 0.5rem;
+}
+
+.projects-grid .project {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-grid .text-link {
+  margin-top: auto;
+  padding-top: 0.8rem;
 }
 
 .project-head {
@@ -590,6 +600,33 @@ textarea:focus {
 
   .pdf-embed iframe {
     height: 640px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: min(1120px, calc(100% - 4rem));
+  }
+
+  .header-inner {
+    gap: 2rem;
+  }
+
+  .nav-list {
+    gap: 1.35rem;
+  }
+
+  .hero {
+    min-height: 60vh;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+
+  .projects-grid .project {
+    min-height: 100%;
   }
 }
 
