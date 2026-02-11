@@ -1,16 +1,14 @@
 :root {
-  --bg: #090f1f;
-  --bg-soft: #111a31;
-  --surface: rgba(17, 26, 49, 0.72);
-  --surface-strong: #14203b;
+  --bg: #0b1222;
+  --surface: rgba(16, 24, 44, 0.8);
   --text: #ecf2ff;
   --muted: #b8c3dd;
   --line: #26365e;
   --brand: #3ecf8e;
   --brand-2: #1fb6ff;
-  --accent: #ff9f43;
+  --accent: #ffb35a;
   --radius: 16px;
-  --shadow: 0 12px 30px rgba(0, 0, 0, 0.24);
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
   --transition: 220ms ease;
 }
 
@@ -28,10 +26,7 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   color: var(--text);
-  background:
-    radial-gradient(700px 360px at 82% -10%, rgba(31, 182, 255, 0.18), transparent 70%),
-    radial-gradient(560px 320px at -10% 26%, rgba(62, 207, 142, 0.14), transparent 70%),
-    linear-gradient(145deg, #070d1a 0%, #090f1f 45%, #0d1831 100%);
+  background: linear-gradient(180deg, #090f1f 0%, #0b1429 100%);
   line-height: 1.65;
   overflow-x: hidden;
 }
@@ -71,12 +66,12 @@ a {
 }
 
 .container {
-  width: min(1120px, calc(100% - 2rem));
+  width: min(980px, calc(100% - 2rem));
   margin-inline: auto;
 }
 
 .section {
-  padding: 5.5rem 0;
+  padding: 4rem 0;
   border-bottom: 1px solid rgba(184, 195, 221, 0.1);
 }
 
@@ -210,11 +205,9 @@ main {
 }
 
 .hero {
-  position: relative;
-  min-height: min(92vh, 820px);
+  min-height: 64vh;
   display: grid;
   align-items: center;
-  overflow: hidden;
 }
 
 .hero-layout {
@@ -224,13 +217,13 @@ main {
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5.2vw, 4rem);
-  margin-bottom: 1rem;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 0.8rem;
 }
 
 .hero-subtitle {
   color: var(--muted);
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(1rem, 1.8vw, 1.12rem);
   max-width: 64ch;
 }
 
@@ -288,89 +281,13 @@ a:focus-visible {
   color: #d7f2ff;
 }
 
-.pill-list {
-  list-style: none;
-  margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.pill-list li {
-  border: 1px solid rgba(184, 195, 221, 0.28);
-  color: #d7e3ff;
-  padding: 0.38rem 0.65rem;
-  border-radius: 999px;
-  background: rgba(17, 26, 49, 0.5);
-  font-size: 0.84rem;
-  font-weight: 600;
-}
-
-.skill-logos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-bottom: 1rem;
-}
-
-.logo-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.4rem 0.62rem;
-  border-radius: 999px;
-  border: 1px solid rgba(184, 195, 221, 0.3);
-  background: rgba(10, 16, 31, 0.62);
-  color: #dbe7ff;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-.logo-chip img {
-  width: 18px;
-  height: 18px;
-  display: block;
-}
-
-.hero-glow {
-  position: absolute;
-  border-radius: 999px;
-  filter: blur(28px);
-  opacity: 0.32;
-  pointer-events: none;
-}
-
-.hero-glow-a {
-  width: 360px;
-  height: 360px;
-  background: rgba(62, 207, 142, 0.55);
-  top: -120px;
-  right: -70px;
-  animation: floatA 9s ease-in-out infinite;
-}
-
-.hero-glow-b {
-  width: 320px;
-  height: 320px;
-  background: rgba(31, 182, 255, 0.5);
-  bottom: -120px;
-  left: -90px;
-  animation: floatB 10s ease-in-out infinite;
-}
-
-@keyframes floatA {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(-14px, 18px); }
-}
-
-@keyframes floatB {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(16px, -10px); }
-}
-
 .grid {
   display: grid;
   gap: 1rem;
+}
+
+.cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .cols-3 {
@@ -378,17 +295,16 @@ a:focus-visible {
 }
 
 .panel {
-  background: linear-gradient(160deg, var(--surface) 0%, rgba(20, 32, 59, 0.85) 100%);
+  background: var(--surface);
   border: 1px solid rgba(184, 195, 221, 0.2);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1.25rem;
-  transition: transform var(--transition), border-color var(--transition), background var(--transition);
+  transition: border-color var(--transition), background var(--transition);
 }
 
 .panel:hover {
-  transform: translateY(-4px);
-  border-color: rgba(62, 207, 142, 0.6);
+  border-color: rgba(62, 207, 142, 0.45);
 }
 
 .panel h3 {
@@ -439,14 +355,6 @@ a:focus-visible {
 
 .text-link:hover {
   color: #b9ecff;
-}
-
-.soft {
-  margin-top: 1rem;
-}
-
-.project-points {
-  margin-top: 0.8rem;
 }
 
 .dot-list {
@@ -699,7 +607,7 @@ textarea:focus {
   }
 
   .hero {
-    min-height: 84vh;
+    min-height: 56vh;
   }
 }
 
@@ -747,84 +655,13 @@ textarea:focus {
   }
 }
 
-
-
-
-.skill-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-bottom: 0.75rem;
-}
-
-.skill-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.76rem;
-  font-weight: 700;
-  color: #d7e8ff;
-  background: rgba(31, 182, 255, 0.12);
-  border: 1px solid rgba(31, 182, 255, 0.3);
-  border-radius: 999px;
-  padding: 0.2rem 0.5rem;
-}
-
-.skill-badge img {
-  width: 14px;
-  height: 14px;
-  display: block;
-}
-
-
 .header.scrolled {
-  background: rgba(8, 13, 28, 0.9);
-  border-color: rgba(164, 185, 225, 0.22);
-  box-shadow: 0 8px 24px rgba(2, 7, 15, 0.35);
-}
-
-.hero-grid-overlay {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(to right, rgba(164, 185, 225, 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(164, 185, 225, 0.05) 1px, transparent 1px);
-  background-size: 60px 60px;
-  mask-image: radial-gradient(circle at 50% 32%, black 24%, transparent 80%);
-  pointer-events: none;
-}
-
-.hero-metrics {
-  margin-top: 1.4rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.8rem;
-  max-width: 700px;
-}
-
-.metric-card {
-  border: 1px solid rgba(164, 185, 225, 0.28);
-  border-radius: 14px;
-  background: linear-gradient(155deg, rgba(16, 27, 50, 0.72), rgba(24, 39, 71, 0.9));
-  padding: 0.82rem 0.9rem;
-  box-shadow: var(--shadow);
-}
-
-.metric-value {
-  display: block;
-  font-size: 1.28rem;
-  font-weight: 700;
-  color: #baf7e3;
-}
-
-.metric-label {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--muted);
+  background: rgba(8, 13, 28, 0.92);
+  border-color: rgba(164, 185, 225, 0.2);
 }
 
 @media (max-width: 720px) {
-  .hero-metrics {
+  .cols-2 {
     grid-template-columns: 1fr;
   }
 }
