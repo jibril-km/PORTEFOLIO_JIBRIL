@@ -1,0 +1,15 @@
+{
+  "name": "Portfolio - Jibril Khattaf Mendil",
+  "short_name": "Portfolio JKM",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090f1f",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jibril-km.github.io/PORTEFOLIO_JIBRIL/sitemap.xml
