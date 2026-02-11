@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio de Jibril Khattaf Mendil</title>
+  <desc id="desc">Carte de partage du portfolio BTS SIO SLAM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#070d1a" />
+      <stop offset="100%" stop-color="#0d1831" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#3ecf8e" />
+      <stop offset="100%" stop-color="#1fb6ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1010" cy="80" r="170" fill="#1fb6ff" fill-opacity="0.16" />
+  <circle cx="160" cy="550" r="200" fill="#3ecf8e" fill-opacity="0.14" />
+  <rect x="88" y="76" width="1024" height="478" rx="26" fill="#101b32" fill-opacity="0.92" stroke="#2b3c66" />
+  <text x="140" y="220" font-size="36" fill="#3ecf8e" font-family="Arial, sans-serif" letter-spacing="4">PORTFOLIO PROFESSIONNEL</text>
+  <text x="140" y="292" font-size="64" fill="#ecf2ff" font-family="Arial, sans-serif" font-weight="700">Jibril Khattaf Mendil</text>
+  <text x="140" y="352" font-size="36" fill="#b8c3dd" font-family="Arial, sans-serif">BTS SIO SLAM - Projets, Stages, Competences</text>
+  <rect x="140" y="404" width="540" height="56" rx="28" fill="url(#accent)" />
+  <text x="170" y="441" font-size="28" fill="#062011" font-family="Arial, sans-serif" font-weight="700">github.com/jibril-km</text>
+</svg>

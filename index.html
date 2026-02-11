@@ -3,375 +3,391 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio BTS SIO SLAM — Jibril Khattaf Mendil" />
-  <meta name="theme-color" content="#6366f1" />
+  <meta name="description" content="Portfolio de Jibril Khattaf Mendil, etudiant BTS SIO SLAM: projets web, stages, veille technologique et CV." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Portfolio | Jibril Khattaf Mendil" />
+  <meta property="og:description" content="Etudiant BTS SIO SLAM a Nice. Projets concrets, stages, competences et contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jibril-km.github.io/PORTEFOLIO_JIBRIL/" />
+  <meta property="og:image" content="https://jibril-km.github.io/PORTEFOLIO_JIBRIL/assets/og-preview.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio | Jibril Khattaf Mendil" />
+  <meta name="twitter:description" content="BTS SIO SLAM a Nice: projets, stages, veille, CV et contact." />
+  <meta name="twitter:image" content="https://jibril-km.github.io/PORTEFOLIO_JIBRIL/assets/og-preview.svg" />
+  <link rel="canonical" href="https://jibril-km.github.io/PORTEFOLIO_JIBRIL/" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <title>Portfolio | Jibril Khattaf Mendil (BTS SIO SLAM)</title>
 
-  <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jibril Khattaf Mendil",
+      "jobTitle": "Etudiant BTS SIO SLAM",
+      "url": "https://jibril-km.github.io/PORTEFOLIO_JIBRIL/",
+      "sameAs": [
+        "https://github.com/jibril-km"
+      ],
+      "email": "mailto:jibril.khattaf@icloud.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Carros",
+        "addressCountry": "FR"
+      }
+    }
+  </script>
 </head>
-
 <body id="top">
-<header class="header">
-  <div class="header-container">
-    <div class="header-brand">
-      <h1>Jibril Khattaf Mendil</h1>
-      <p class="brand-subtitle">BTS SIO SLAM • Développement web • Bases de données</p>
-    </div>
+  <noscript>
+    <div class="noscript-banner">Ce site fonctionne mieux avec JavaScript active.</div>
+  </noscript>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
 
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
-      <span></span><span></span><span></span>
-    </button>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Retour en haut">
+        <span class="brand-name">Jibril Khattaf Mendil</span>
+        <span class="brand-sub">BTS SIO SLAM | Developpement web</span>
+      </a>
 
-    <nav id="main-nav" class="navbar" aria-label="Navigation principale">
-      <ul class="nav-list">
-        <li><a href="#about" class="nav-link">À propos</a></li>
-        <li><a href="#skills" class="nav-link">Compétences</a></li>
-        <li><a href="#projects" class="nav-link">Projets</a></li>
-        <li><a href="#internships" class="nav-link">Stages</a></li>
-        <li><a href="#veille" class="nav-link">Veille</a></li>
-        <li><a href="#cv" class="nav-link">CV</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+      <button type="button" class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
 
-<main>
-  <!-- HERO -->
-  <section class="hero" aria-label="Présentation">
-    <div class="container">
-      <div class="hero-content">
-        <h1 class="hero-title">Développeur<br>en devenir 💻</h1>
-        <p class="hero-subtitle">
-          Étudiant en <strong>BTS SIO — option SLAM</strong> à Nice. Je développe des sites et applications web,
-          je travaille sur les bases de données et j’ai des notions en cybersécurité & réseaux.
-        </p>
-
-        <div class="cta-buttons">
-          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
-          <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" class="btn btn-secondary" download>Télécharger mon CV</a>
-          <a href="https://github.com/jibril-km" class="btn btn-secondary" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-
-        <div class="hero-badges" aria-label="Points forts">
-          <span class="pill">HTML/CSS</span>
-          <span class="pill">PHP</span>
-          <span class="pill">SQL / MySQL</span>
-          <span class="pill">JavaScript (bases)</span>
-          <span class="pill">UML / Merise</span>
-          <span class="pill">Git/GitHub</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- A PROPOS -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>À propos</h2>
-      <p>
-        Après une première année en <strong>STAPS (sciences du sport)</strong>, sans lien avec l’informatique,
-        j’ai effectué une <strong>réorientation</strong> vers le BTS SIO option SLAM afin de construire un projet
-        professionnel solide dans le développement.
-      </p>
-
-      <div class="about-grid">
-        <div class="about-card">
-          <h3>🎯 Objectif</h3>
-          <p>Continuer mes études (école / alternance) et progresser vers un profil développeur polyvalent.</p>
-        </div>
-        <div class="about-card">
-          <h3>🧩 Méthode</h3>
-          <p>Projets concrets, structuration (UML/Merise), Git/GitHub, documentation et amélioration continue.</p>
-        </div>
-        <div class="about-card">
-          <h3>📍 Localisation</h3>
-          <p>Carros (06) — Région <strong>Provence-Alpes-Côte d’Azur</strong>.</p>
-        </div>
-      </div>
-
-      <div class="about-buttons">
-        <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>📄 Télécharger mon CV</a>
-        <a class="btn btn-secondary" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>📝 Lettre de motivation</a>
-        <a class="btn btn-secondary" href="https://github.com/jibril-km" target="_blank" rel="noreferrer">💻 GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- COMPETENCES -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Compétences</h2>
-      <p>Compétences réalistes et alignées avec mon niveau de BTS SIO SLAM (2ᵉ année).</p>
-
-      <div class="skills-list">
-        <div class="skill-item">
-          <div class="skill-icon">🎨</div>
-          <h3>Front-end</h3>
-          <p>HTML, CSS, JavaScript (bases), Responsive</p>
-        </div>
-
-        <div class="skill-item">
-          <div class="skill-icon">⚙️</div>
-          <h3>Back-end</h3>
-          <p>PHP (bases), logique serveur, CRUD</p>
-        </div>
-
-        <div class="skill-item">
-          <div class="skill-icon">🗄️</div>
-          <h3>Bases de données</h3>
-          <p>SQL, MySQL, PhpMyAdmin, modélisation</p>
-        </div>
-
-        <div class="skill-item">
-          <div class="skill-icon">🧠</div>
-          <h3>Conception</h3>
-          <p>UML, Merise, analyse des besoins</p>
-        </div>
-
-        <div class="skill-item">
-          <div class="skill-icon">🔧</div>
-          <h3>Outils</h3>
-          <p>Git/GitHub, WAMP, Notepad++, VS Code</p>
-        </div>
-
-        <div class="skill-item">
-          <div class="skill-icon">🔒</div>
-          <h3>Notions</h3>
-          <p>Réseaux & cybersécurité (bases)</p>
-        </div>
-      </div>
-
-      <div class="softskills">
-        <h3>Soft skills</h3>
-        <ul class="softskills-list">
-          <li>Rigueur et sérieux</li>
-          <li>Autonomie</li>
-          <li>Esprit d’équipe</li>
-          <li>Sens de l’organisation</li>
-          <li>Curiosité et motivation</li>
+      <nav id="main-nav" class="navbar" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">A propos</a></li>
+          <li><a href="#skills" class="nav-link">Competences</a></li>
+          <li><a href="#projects" class="nav-link">Projets</a></li>
+          <li><a href="#internships" class="nav-link">Stages</a></li>
+          <li><a href="#veille" class="nav-link">Veille</a></li>
+          <li><a href="#cv" class="nav-link">CV</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- PROJETS -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Projets</h2>
-      <p>Une sélection de projets (je complète au fur et à mesure). Chaque projet a un lien GitHub.</p>
+  <main id="main-content">
+    <section class="hero section">
+      <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
 
-      <div class="cards-grid">
-        <article class="card" data-modal="p1">
-          <div class="card-header">
-            <h3>Portfolio</h3>
-            <span class="badge">2026</span>
-          </div>
-          <p>Portfolio responsive (HTML/CSS/JS) avec sections BTS (projets, stages, veille) et liens utiles.</p>
-          <div class="tags">
-            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">GitHub Pages</span>
-          </div>
-          <a href="https://github.com/jibril-km/PORTEFOLIO_JIBRIL" target="_blank" rel="noreferrer" class="card-link">Voir sur GitHub →</a>
-        </article>
-
-        <article class="card" data-modal="p2">
-          <div class="card-header">
-            <h3>Projet Web (BTS)</h3>
-            <span class="badge">CRUD</span>
-          </div>
-          <p>Application web avec base de données (CRUD), pages structurées et logique back-end.</p>
-          <div class="tags">
-            <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">SQL</span>
-          </div>
-          <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="card-link">Voir mes repos →</a>
-        </article>
-
-        <article class="card" data-modal="p3">
-          <div class="card-header">
-            <h3>Mini-projet JavaScript</h3>
-            <span class="badge">JS</span>
-          </div>
-          <p>Petits projets d’entraînement (DOM, logique, interactions) pour progresser en JavaScript.</p>
-          <div class="tags">
-            <span class="tag">JavaScript</span><span class="tag">DOM</span><span class="tag">UI</span>
-          </div>
-          <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="card-link">Voir mes repos →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- STAGES -->
-  <section id="internships" class="section">
-    <div class="container">
-      <h2>Stages</h2>
-      <p>Deux stages en informatique chez Ciffreo Bona (1ʳᵉ et 2ᵉ année).</p>
-
-      <div class="timeline" aria-label="Timeline des stages">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Ciffreo Bona — Stage 2ᵉ année (BTS SIO)</h3>
-            <p class="timeline-date">12 janvier – 13 février</p>
-            <p><strong>Contributions :</strong></p>
-            <ul class="list">
-              <li>Analyse des besoins & conceptualisation d’une solution</li>
-              <li>Structuration logique et fonctionnelle du projet</li>
-              <li>Travail en collaboration avec l’équipe informatique</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Ciffreo Bona — Stage 1ʳᵉ année (BTS SIO)</h3>
-            <p class="timeline-date">Période : (à préciser)</p>
-            <ul class="list">
-              <li>Découverte du système d’information</li>
-              <li>Développement & analyse de données</li>
-              <li>Contribution à la modernisation du système (AS/400)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VEILLE -->
-  <section id="veille" class="section">
-    <div class="container">
-      <h2>Veille technologique</h2>
-      <p>Exemples de sujets et sources que je suis pour rester à jour.</p>
-
-      <div class="cards-grid">
-        <article class="card">
-          <div class="card-header">
-            <h3>Sujets suivis</h3>
-            <span class="badge">2026</span>
-          </div>
-          <ul class="list">
-            <li>Cybersécurité (bonnes pratiques, risques, authentification)</li>
-            <li>Écosystème JavaScript & frameworks</li>
-            <li>Bonnes pratiques web (accessibilité, performance)</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-header">
-            <h3>Sources</h3>
-            <span class="badge">Docs</span>
-          </div>
-          <ul class="list">
-            <li>MDN Web Docs</li>
-            <li>Documentation PHP / MySQL</li>
-            <li>ANSSI / CNIL (notions)</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-header">
-            <h3>Organisation</h3>
-            <span class="badge">Méthode</span>
-          </div>
-          <ul class="list">
-            <li>Notes de synthèse courtes (1 page)</li>
-            <li>Exemples + ressources + lien</li>
-            <li>Mises à jour mensuelles</li>
-          </ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CV -->
-  <section id="cv" class="section">
-    <div class="container">
-      <h2>CV</h2>
-      <p>Vous pouvez consulter mon CV directement ici, ou le télécharger.</p>
-
-      <div class="cv-actions">
-        <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>📄 Télécharger le CV (PDF)</a>
-        <a class="btn btn-secondary" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>📝 Télécharger la lettre</a>
-      </div>
-
-      <div class="pdf-embed" role="region" aria-label="CV intégré">
-        <iframe
-          src="assets/CV_Jibril_Khattaf_Mendil.pdf"
-          title="CV de Jibril Khattaf Mendil"
-          loading="lazy"
-        ></iframe>
-        <p class="pdf-fallback">
-          Si le PDF ne s’affiche pas, <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>téléchargez-le ici</a>.
+      <div class="container hero-layout reveal">
+        <p class="eyebrow">Portfolio professionnel</p>
+        <h1 class="hero-title">Developpeur en devenir, oriente projets concrets</h1>
+        <p class="hero-subtitle">
+          Etudiant en <strong>BTS SIO option SLAM</strong> a Nice, je concois des applications web,
+          des bases de donnees et des solutions simples, propres et maintenables.
+          Je recherche une alternance pour continuer a progresser sur des projets reels.
         </p>
-      </div>
-    </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Un échange, une opportunité, une question ? Écrivez-moi.</p>
-
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h3>Coordonnées</h3>
-          <ul class="contact-list">
-            <li>📍 Carros (06)</li>
-            <li>📧 <a href="mailto:jibril.khattaf@icloud.com">jibril.khattaf@icloud.com</a></li>
-            <li>💻 <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer">github.com/jibril-km</a></li>
-          </ul>
-          <div class="contact-actions">
-            <a class="btn btn-primary" href="mailto:jibril.khattaf@icloud.com?subject=Contact%20Portfolio">Envoyer un email</a>
-            <a class="btn btn-secondary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Télécharger le CV</a>
-          </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" class="btn btn-outline" download>Telecharger mon CV</a>
+          <a href="https://github.com/jibril-km" class="btn btn-outline" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
         </div>
 
-        <form class="contact-form" id="contactForm">
-          <div class="form-group">
-            <label for="name">Nom complet</label>
-            <input type="text" id="name" name="name" required placeholder="Votre nom">
-          </div>
+        <ul class="pill-list" aria-label="Technologies principales">
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>SQL / MySQL</li>
+          <li>UML / Merise</li>
+          <li>Git / GitHub</li>
+        </ul>
 
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="votre@email.com">
-          </div>
-
-          <div class="form-group">
-            <label for="subject">Sujet</label>
-            <input type="text" id="subject" name="subject" required placeholder="Objet du message">
-          </div>
-
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Votre message..." rows="6"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary">Générer l’email</button>
-          <p class="form-hint">Le bouton ouvre votre application mail (pas d’envoi automatique).</p>
-        </form>
+        <div class="hero-metrics" aria-label="Indicateurs">
+          <article class="metric-card"><span class="metric-value">8+</span><span class="metric-label">Technologies pratiquees</span></article>
+          <article class="metric-card"><span class="metric-value">2</span><span class="metric-label">Stages realises</span></article>
+          <article class="metric-card"><span class="metric-value">3</span><span class="metric-label">Projets presentes</span></article>
+        </div>
       </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container reveal">
+        <h2>A propos</h2>
+        <p class="section-intro">
+          Apres une premiere annee en STAPS, j'ai choisi une reorientation vers le BTS SIO SLAM pour construire un projet
+          professionnel solide dans le developpement.
+        </p>
+
+        <div class="grid cols-3">
+          <article class="panel">
+            <h3>Objectif</h3>
+            <p>Poursuivre mes etudes en alternance et evoluer vers un profil de developpeur polyvalent.</p>
+          </article>
+          <article class="panel">
+            <h3>Methode</h3>
+            <p>Projets concrets, bonne structuration technique, GitHub, documentation et progression continue.</p>
+          </article>
+          <article class="panel">
+            <h3>Localisation</h3>
+            <p>Carros (06), mobile sur la region Provence-Alpes-Cote d'Azur.</p>
+          </article>
+        </div>
+
+        <div class="inline-actions">
+          <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Telecharger mon CV</a>
+          <a class="btn btn-outline" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>Lettre de motivation</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container reveal">
+        <h2>Competences</h2>
+        <p class="section-intro">Competences alignees avec mon niveau BTS SIO SLAM (2e annee).</p>
+
+        <div class="skill-logos" aria-label="Logos technologies">
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5" loading="lazy" />HTML5</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3" loading="lazy" />CSS3</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" loading="lazy" />JavaScript</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java" loading="lazy" />Java</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="Logo PHP" loading="lazy" />PHP</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL" loading="lazy" />MySQL</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Logo Git" loading="lazy" />Git</span>
+          <span class="logo-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Logo GitHub" loading="lazy" />GitHub</span>
+        </div>
+        <div class="grid cols-3">
+          <article class="panel skill"><h3>Front-end</h3><div class="skill-badges"><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" loading="lazy" />HTML</span><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" loading="lazy" />CSS</span><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" loading="lazy" />JavaScript</span></div><p>HTML, CSS, JavaScript (bases), responsive design.</p></article>
+          <article class="panel skill"><h3>Back-end</h3><div class="skill-badges"><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="" loading="lazy" />PHP</span><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" loading="lazy" />Java</span><span class="skill-badge">CRUD</span></div><p>PHP (bases), logique serveur, CRUD.</p></article>
+          <article class="panel skill"><h3>Bases de donnees</h3><div class="skill-badges"><span class="skill-badge">SQL</span><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" loading="lazy" />MySQL</span><span class="skill-badge">PhpMyAdmin</span></div><p>SQL, MySQL, PhpMyAdmin, modelisation.</p></article>
+          <article class="panel skill"><h3>Conception</h3><div class="skill-badges"><span class="skill-badge">UML</span><span class="skill-badge">Merise</span><span class="skill-badge">Analyse</span></div><p>UML, Merise, analyse des besoins.</p></article>
+          <article class="panel skill"><h3>Outils</h3><div class="skill-badges"><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" loading="lazy" />Git</span><span class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" loading="lazy" />GitHub</span><span class="skill-badge">VS Code</span></div><p>Git/GitHub, WAMP, VS Code, Notepad++.</p></article>
+          <article class="panel skill"><h3>Notions</h3><div class="skill-badges"><span class="skill-badge">Reseaux</span><span class="skill-badge">Cybersecurite</span><span class="skill-badge">Securite web</span></div><p>Reseaux et cybersecurite (bases).</p></article>
+        </div>
+
+        <article class="panel soft">
+          <h3>Soft skills</h3>
+          <ul class="dot-list">
+            <li>Rigueur et serieux</li>
+            <li>Autonomie</li>
+            <li>Esprit d'equipe</li>
+            <li>Sens de l'organisation</li>
+            <li>Curiosite et motivation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h2>Projets</h2>
+        <p class="section-intro">Une selection de projets representatifs de ma progression avec objectifs et resultats.</p>
+
+        <div class="grid cols-3">
+          <article class="panel project">
+            <div class="project-head"><h3>Portfolio</h3><span class="chip">2026</span></div>
+            <p>Portfolio responsive structure pour convaincre un recruteur et centraliser mes preuves BTS.</p>
+            <ul class="dot-list project-points">
+              <li>Architecture mono-page claire avec navigation rapide.</li>
+              <li>Ameliorations SEO, accessibilite et performance front-end.</li>
+              <li>Publication sur GitHub pour partage simple.</li>
+            </ul>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span><span>GitHub Pages</span></div>
+            <a href="https://github.com/jibril-km/PORTEFOLIO_JIBRIL" target="_blank" rel="noreferrer" class="text-link">Voir sur GitHub</a>
+          </article>
+
+          <article class="panel project">
+            <div class="project-head"><h3>Projet web BTS</h3><span class="chip">CRUD</span></div>
+            <p>Application de gestion connectee a une base MySQL avec traitement des donnees cote serveur.</p>
+            <ul class="dot-list project-points">
+              <li>Creation, lecture, modification et suppression de fiches.</li>
+              <li>Structuration SQL et separation des responsabilites.</li>
+              <li>Validation des donnees saisies et correction d'erreurs.</li>
+            </ul>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>SQL</span></div>
+            <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="text-link">Voir mes repos</a>
+          </article>
+
+          <article class="panel project">
+            <div class="project-head"><h3>Mini-projets JavaScript</h3><span class="chip">JS</span></div>
+            <p>Serie de mini-projets pour pratiquer le DOM, l'interaction utilisateur et la logique JavaScript.</p>
+            <ul class="dot-list project-points">
+              <li>Manipulation du DOM et gestion d'evenements.</li>
+              <li>Travail sur la logique algorithmique et le debogage.</li>
+              <li>Interface responsive et composants reutilisables.</li>
+            </ul>
+            <div class="tags"><span>JavaScript</span><span>DOM</span><span>UI</span></div>
+            <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer" class="text-link">Voir mes repos</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="internships" class="section">
+      <div class="container reveal">
+        <h2>Stages</h2>
+        <p class="section-intro">Deux stages en informatique chez Ciffreo Bona avec progression sur l'analyse et la mise en oeuvre.</p>
+
+        <div class="timeline" aria-label="Timeline des stages">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="panel">
+              <h3>Ciffreo Bona - Stage 2e annee (BTS SIO)</h3>
+              <p class="muted">12 janvier 2026 au 13 fevrier 2026</p>
+              <ul class="dot-list">
+                <li>Analyse des besoins et conceptualisation d'une solution.</li>
+                <li>Structuration logique et fonctionnelle du projet.</li>
+                <li>Collaboration avec l'equipe informatique et restitution des avancees.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="panel">
+              <h3>Ciffreo Bona - Stage 1re annee (BTS SIO)</h3>
+              <p class="muted">Mai 2025 a Juin 2025 (periode a confirmer)</p>
+              <ul class="dot-list">
+                <li>Decouverte du systeme d'information.</li>
+                <li>Developpement et analyse de donnees.</li>
+                <li>Contribution a la modernisation du systeme (AS/400).</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="veille" class="section">
+      <div class="container reveal">
+        <h2>Veille technologique</h2>
+        <p class="section-intro">Sujets suivis pour rester a jour et renforcer mes pratiques.</p>
+
+        <div class="grid cols-3">
+          <article class="panel">
+            <div class="project-head"><h3>Sujets suivis</h3><span class="chip">2026</span></div>
+            <ul class="dot-list">
+              <li>Cybersecurite : authentification, menaces, hygiene numerique.</li>
+              <li>Ecosysteme JavaScript et frameworks.</li>
+              <li>Accessibilite et performance web.</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <div class="project-head"><h3>Sources</h3><span class="chip">Docs</span></div>
+            <ul class="dot-list">
+              <li>MDN Web Docs</li>
+              <li>Documentation PHP / MySQL</li>
+              <li>ANSSI et CNIL</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <div class="project-head"><h3>Organisation</h3><span class="chip">Methode</span></div>
+            <ul class="dot-list">
+              <li>Notes synthetiques courtes.</li>
+              <li>Exemples et liens de reference.</li>
+              <li>Mises a jour regulieres.</li>
+            </ul>
+          </article>
+        </div>
+        <p class="muted">Derniere mise a jour de veille: fevrier 2026.</p>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="container reveal">
+        <h2>CV</h2>
+        <p class="section-intro">Consultez ou telechargez mon CV et ma lettre de motivation.</p>
+
+        <div class="inline-actions">
+          <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Telecharger le CV (PDF)</a>
+          <a class="btn btn-outline" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>Telecharger la lettre</a>
+        </div>
+
+        <div class="pdf-embed" role="region" aria-label="CV integre">
+          <iframe src="assets/CV_Jibril_Khattaf_Mendil.pdf" title="CV de Jibril Khattaf Mendil" loading="lazy"></iframe>
+          <p class="muted">
+            Si le PDF ne s'affiche pas, <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>telechargez-le ici</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <p class="section-intro">Un echange, une opportunite ou une question ? Ecrivez-moi.</p>
+
+        <div class="contact-grid">
+          <article class="panel contact-panel">
+            <h3>Coordonnees</h3>
+            <ul class="dot-list">
+              <li>Carros (06)</li>
+              <li><a href="mailto:jibril.khattaf@icloud.com">jibril.khattaf@icloud.com</a></li>
+              <li><a href="https://github.com/jibril-km" target="_blank" rel="noreferrer">github.com/jibril-km</a></li>
+            </ul>
+            <div class="inline-actions">
+              <a class="btn btn-primary" href="mailto:jibril.khattaf@icloud.com?subject=Contact%20Portfolio">Envoyer un email</a>
+              <a class="btn btn-outline" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Telecharger le CV</a>
+              <button type="button" class="btn btn-outline" id="copyEmailBtn">Copier mon email</button>
+            </div>
+          </article>
+
+          <form class="panel contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Sujet</label>
+              <input type="text" id="subject" name="subject" required placeholder="Objet du message" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Votre message..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Generer l'email</button>
+            <p class="muted">Ce bouton ouvre votre application mail (pas d'envoi automatique).</p>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="social-links">
+        <a href="https://github.com/jibril-km" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:jibril.khattaf@icloud.com">Email</a>
+      </div>
+      <p>&copy; <span id="year"></span> Jibril Khattaf Mendil - Portfolio BTS SIO SLAM</p>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer class="footer">
-  <div class="footer-content">
-    <div class="social-links">
-      <a href="https://github.com/jibril-km" title="GitHub" aria-label="GitHub" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="mailto:jibril.khattaf@icloud.com" title="Email" aria-label="Email">Email</a>
-    </div>
-    <p>&copy; 2026 — Jibril Khattaf Mendil • Portfolio BTS SIO SLAM</p>
-  </div>
-</footer>
+  <button type="button" class="scroll-to-top" aria-label="Retour en haut">^</button>
 
-<button class="scroll-to-top" aria-label="Retour en haut">↑</button>
-
-<script src="script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

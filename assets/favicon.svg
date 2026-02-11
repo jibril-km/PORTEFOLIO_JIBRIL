@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Favicon JKM</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3ecf8e" />
+      <stop offset="100%" stop-color="#1fb6ff" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="#0d1831" />
+  <path d="M32 34h14v46c0 8-5 15-14 15h-4v-12h2c2 0 2-2 2-4V34zm30 0h14v23l18-23h16L89 60l23 34H95L77 67l-1 1v26H62V34z" fill="url(#g)"/>
+</svg>
