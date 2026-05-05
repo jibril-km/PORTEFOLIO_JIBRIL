@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">DKR Locations - connexion</title>
+  <desc id="desc">Maquette de la page de connexion DKR Locations.</desc>
+  <rect width="1200" height="675" fill="#191919"/>
+  <rect x="350" y="75" width="500" height="525" rx="12" fill="#292929" stroke="#454545"/>
+  <text x="600" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#08cfff">DKR Locations</text>
+  <text x="600" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#c6c6c6">Connexion</text>
+  <text x="410" y="286" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#d7d7d7">Email :</text>
+  <rect x="410" y="305" width="380" height="46" rx="4" fill="#333" stroke="#555"/>
+  <text x="410" y="392" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#d7d7d7">Mot de passe :</text>
+  <rect x="410" y="411" width="380" height="46" rx="4" fill="#333" stroke="#555"/>
+  <rect x="410" y="490" width="155" height="48" rx="6" fill="#08cfff"/>
+  <text x="488" y="521" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#030303">Se connecter</text>
+  <rect x="410" y="560" width="380" height="62" rx="0" fill="#134057"/>
+  <text x="430" y="586" font-family="Arial, sans-serif" font-size="16" fill="#e5f8ff">Compte admin par defaut : admin@dkr.com /</text>
+  <text x="430" y="610" font-family="Arial, sans-serif" font-size="16" fill="#e5f8ff">admin123</text>
+</svg>

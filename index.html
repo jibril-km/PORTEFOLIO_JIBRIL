@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio de Jibril Khattaf Mendil, etudiant BTS SIO SLAM: projets web, stages, veille technologique et CV." />
+  <meta name="description" content="Portfolio de Jibril Khattaf Mendil, etudiant BTS SIO SLAM: parcours, projets web, stages, veille technologique et CV." />
   <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#0f172a" />
+  <meta name="theme-color" content="#080d16" />
   <meta property="og:title" content="Portfolio | Jibril Khattaf Mendil" />
   <meta property="og:description" content="Etudiant BTS SIO SLAM a Nice. Projets concrets, stages, competences et contact." />
   <meta property="og:type" content="website" />
@@ -68,6 +68,7 @@
           <li><a href="#projects" class="nav-link">Projets</a></li>
           <li><a href="#internships" class="nav-link">Stages</a></li>
           <li><a href="#veille" class="nav-link">Veille</a></li>
+          <li><a href="#e5" class="nav-link">E5</a></li>
           <li><a href="#cv" class="nav-link">CV</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
@@ -84,6 +85,13 @@
           Etudiant en BTS SIO - option SLAM<br />
           Developpement d'applications web
         </p>
+
+        <div class="hero-badges" aria-label="Points forts du profil">
+          <span>HTML / CSS / JavaScript</span>
+          <span>PHP / MySQL</span>
+          <span>GitHub</span>
+          <span>Recherche alternance</span>
+        </div>
 
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">Voir mes projets</a>
@@ -112,9 +120,23 @@
           </article>
         </div>
 
+        <div class="profile-strip" aria-label="Resume du profil">
+          <article>
+            <span class="profile-kpi">BTS SIO</span>
+            <p>Option SLAM orientee developpement d'applications.</p>
+          </article>
+          <article>
+            <span class="profile-kpi">Web</span>
+            <p>Creation d'interfaces responsive et de fonctionnalites dynamiques.</p>
+          </article>
+          <article>
+            <span class="profile-kpi">Projet</span>
+            <p>Organisation, documentation et amelioration progressive du code.</p>
+          </article>
+        </div>
+
         <div class="inline-actions">
           <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Telecharger mon CV</a>
-          <a class="btn btn-outline" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>Lettre de motivation</a>
         </div>
       </div>
     </section>
@@ -122,24 +144,76 @@
     <section id="skills" class="section">
       <div class="container reveal">
         <h2>Competences</h2>
-        <p class="section-intro">Competences techniques et methodes que j'utilise sur mes projets.</p>
-        <div class="grid cols-2 projects-grid">
-          <article class="panel">
-            <h3>Competences techniques</h3>
+        <p class="section-intro">
+          Les competences que j'utilise principalement dans mes projets web.
+        </p>
+
+        <div class="grid cols-3 skills-grid">
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Front-end</h3><span class="chip">Web</span></div>
+            <div class="project-tech-logos" aria-label="Technologies front-end">
+              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5" loading="lazy" />HTML5</span>
+              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3" loading="lazy" />CSS3</span>
+              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" loading="lazy" />JavaScript</span>
+            </div>
             <ul class="dot-list">
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>PHP, SQL, MySQL</li>
-              <li>Git et GitHub</li>
-              <li>Responsive Design</li>
+              <li>Interfaces responsive.</li>
+              <li>Interactions JavaScript simples.</li>
+              <li>Organisation claire des pages.</li>
             </ul>
           </article>
-          <article class="panel">
-            <h3>Methodes</h3>
+
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Back-end</h3><span class="chip">PHP</span></div>
+            <div class="project-tech-logos" aria-label="Technologies back-end">
+              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="Logo PHP" loading="lazy" />PHP</span>
+              <span class="project-tech-chip">CRUD</span>
+              <span class="project-tech-chip">Sessions</span>
+            </div>
             <ul class="dot-list">
-              <li>Analyse du besoin et structuration du projet</li>
-              <li>Conception UML / Merise</li>
-              <li>Tests manuels et correction progressive</li>
-              <li>Documentation claire</li>
+              <li>Traitement de formulaires.</li>
+              <li>Gestion de sessions et de roles.</li>
+              <li>Ajout, modification et suppression de donnees.</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Base de donnees</h3><span class="chip">SQL</span></div>
+            <div class="project-tech-logos" aria-label="Technologies base de donnees">
+              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL" loading="lazy" />MySQL</span>
+              <span class="project-tech-chip">SQL</span>
+            </div>
+            <ul class="dot-list">
+              <li>Requetes SELECT, INSERT, UPDATE, DELETE.</li>
+              <li>Tables, relations et donnees metier.</li>
+              <li>Script SQL de creation de base.</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Outils</h3><span class="chip">Git</span></div>
+            <ul class="dot-list">
+              <li>GitHub pour heberger les projets.</li>
+              <li>VS Code pour developper.</li>
+              <li>Tests et corrections progressives.</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Methode</h3><span class="chip">Projet</span></div>
+            <ul class="dot-list">
+              <li>Comprendre un besoin utilisateur.</li>
+              <li>Structurer les fonctionnalites.</li>
+              <li>Presenter clairement le resultat.</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <div class="project-head"><h3>Bonnes pratiques</h3><span class="chip">Securite</span></div>
+            <ul class="dot-list">
+              <li>Validation des formulaires.</li>
+              <li>Droits utilisateurs et sessions.</li>
+              <li>Protection des donnees sensibles.</li>
             </ul>
           </article>
         </div>
@@ -149,49 +223,120 @@
     <section id="projects" class="section">
       <div class="container reveal">
         <h2>Projets</h2>
-        <p class="section-intro">Une selection concise de projets representatifs de ma progression.</p>
+        <p class="section-intro">
+          Mes projets montrent ma progression en developpement web, depuis la creation d'interfaces
+          jusqu'a la mise en place de fonctionnalites dynamiques et de traitements de donnees.
+          Chaque projet est documente avec son contexte, ses objectifs, les competences travaillees
+          et les pistes d'amelioration.
+        </p>
 
-        <div class="grid cols-2">
-          <article class="panel project">
-            <div class="project-head"><h3>Portfolio</h3><span class="chip">2026</span></div>
-            <p><strong>Description :</strong> Application web de presentation de mon parcours et de mes realisations.</p>
-            <div class="project-tech-logos" aria-label="Technologies du projet portfolio">
+        <div class="grid cols-2 projects-grid featured-projects">
+          <article class="panel project project-featured">
+            <div class="project-preview">
+              <img src="Projet/TRAVEL-FOOD/images/travel_food_icon.jpeg" alt="Logo Travel Food" loading="lazy" />
+            </div>
+            <div class="project-head"><h3>Travel Food</h3><span class="chip">Site vitrine</span></div>
+            <p><strong>Contexte :</strong> Site vitrine realise pour le snack familial afin de presenter l'activite, la carte, les horaires et les informations de contact.</p>
+            <p><strong>Description :</strong> Interface responsive pour un snack a Carros avec menu filtre par categorie, mise en avant des burgers, tacos, tajines, couscous, desserts et boissons.</p>
+            <div class="project-tech-logos" aria-label="Technologies du projet Travel Food">
               <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5" loading="lazy" />HTML5</span>
               <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3" loading="lazy" />CSS3</span>
               <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" loading="lazy" />JavaScript</span>
             </div>
-            <p><strong>Objectif pedagogique :</strong> Structurer un site clair pour une presentation BTS.</p>
-            <p><strong>Competences developpees :</strong> Responsive design, accessibilite, organisation du contenu.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span><span>GitHub Pages</span></div>
-            <a href="https://github.com/jibril-km/PORTEFOLIO_JIBRIL" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code sur GitHub</a>
+            <div class="project-details">
+              <article>
+                <h4>Fonctionnalites</h4>
+                <ul class="dot-list">
+                  <li>Page d'accueil claire avec appels a l'action.</li>
+                  <li>Carte du snack organisee par categories.</li>
+                  <li>Filtrage dynamique du menu en JavaScript.</li>
+                  <li>Sections horaires, adresse et contact.</li>
+                </ul>
+              </article>
+              <article>
+                <h4>Apports</h4>
+                <ul class="dot-list">
+                  <li>Travail a partir d'un besoin reel.</li>
+                  <li>Structuration d'un contenu commercial.</li>
+                  <li>Responsive design pour mobile et ordinateur.</li>
+                  <li>Integration d'images et amelioration de l'experience utilisateur.</li>
+                </ul>
+              </article>
+            </div>
+            <p><strong>Competences developpees :</strong> integration web, responsive design, JavaScript cote client, organisation d'un site vitrine et prise en compte d'un besoin utilisateur.</p>
+            <p><strong>Ameliorations possibles :</strong> ajouter un vrai systeme de commande, une carte interactive et une gestion plus avancee des demandes client.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Site vitrine</span></div>
+            <div class="project-links">
+              <a href="assets/projets/travel-food/index.html" target="_blank" rel="noopener noreferrer" class="text-link">Voir la demo</a>
+              <a href="https://github.com/jibril-km/TRAVEL-FOOD" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code</a>
+            </div>
           </article>
 
-          <article class="panel project">
-            <div class="project-head"><h3>Projet web BTS</h3><span class="chip">CRUD</span></div>
-            <p><strong>Description :</strong> Application permettant de gerer des donnees metier avec operations CRUD.</p>
-            <div class="project-tech-logos" aria-label="Technologies du projet web BTS">
+          <article class="panel project project-featured">
+            <div class="project-preview project-preview-dkr" aria-hidden="true">
+              <span>DKR</span>
+              <small>Locations</small>
+            </div>
+            <div class="project-head"><h3>DKR Locations</h3><span class="chip">Application metier</span></div>
+            <p><strong>Contexte :</strong> Application de gestion de location de vehicules realisee dans le cadre d'un projet de developpement web.</p>
+            <p><strong>Description :</strong> Application PHP/MySQL avec authentification, roles utilisateurs et gestion d'un parc de vehicules selon le profil connecte.</p>
+            <div class="project-tech-logos" aria-label="Technologies du projet DKR Locations">
               <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="Logo PHP" loading="lazy" />PHP</span>
               <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL" loading="lazy" />MySQL</span>
               <span class="project-tech-chip">SQL</span>
+              <span class="project-tech-chip">MVC</span>
             </div>
-            <p><strong>Objectif pedagogique :</strong> Pratiquer la logique serveur et la base de donnees.</p>
-            <p><strong>Competences developpees :</strong> CRUD, requetes SQL, validation des formulaires.</p>
-            <div class="tags"><span>PHP</span><span>MySQL</span><span>SQL</span></div>
-            <a href="https://github.com/jibril-km" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code sur GitHub</a>
+            <div class="project-details">
+              <article>
+                <h4>Fonctionnalites</h4>
+                <ul class="dot-list">
+                  <li>Connexion avec verification de session.</li>
+                  <li>Gestion des roles admin et commercial.</li>
+                  <li>Ajout, modification et suppression de vehicules.</li>
+                  <li>Base de donnees avec utilisateurs et vehicules.</li>
+                </ul>
+              </article>
+              <article>
+                <h4>Organisation</h4>
+                <ul class="dot-list">
+                  <li>Separation des dossiers config, models, controllers et views.</li>
+                  <li>Routes gerees depuis le fichier principal.</li>
+                  <li>Script SQL pour creer et remplir la base.</li>
+                  <li>Cahier des charges associe au projet.</li>
+                </ul>
+              </article>
+            </div>
+            <div class="project-gallery" aria-label="Captures du projet DKR Locations">
+              <figure class="gallery-main">
+                <img src="assets/projets/dkr/admin-vehicules.svg" alt="Interface administrateur avec liste des vehicules DKR Locations" loading="lazy" />
+                <figcaption>Administration</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/projets/dkr/connexion.svg" alt="Page de connexion DKR Locations" loading="lazy" />
+                <figcaption>Connexion</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/projets/dkr/commercial-vehicules.svg" alt="Interface commercial avec liste des vehicules DKR Locations" loading="lazy" />
+                <figcaption>Espace commercial</figcaption>
+              </figure>
+            </div>
+            <p><strong>Competences developpees :</strong> PHP, MySQL, sessions, roles utilisateurs, architecture MVC simple, CRUD et organisation d'une application metier.</p>
+            <p><strong>Ameliorations possibles :</strong> finaliser l'espace client, ajouter la reservation en ligne, renforcer le hashage des mots de passe et completer les tests.</p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>CRUD</span><span>Authentification</span></div>
+            <div class="project-links">
+              <a href="assets/projets/dkr/cahier-des-charges.pdf" target="_blank" rel="noopener noreferrer" class="text-link">Voir le cahier des charges</a>
+              <a href="https://github.com/DokkaDdv/dkr_locations" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code</a>
+            </div>
           </article>
+        </div>
 
+        <div class="grid cols-1 projects-grid secondary-projects">
           <article class="panel project">
-            <div class="project-head"><h3>Mini-projets JavaScript</h3><span class="chip">JS</span></div>
-            <p><strong>Description :</strong> Applications permettant de pratiquer les interactions utilisateur cote navigateur.</p>
-            <div class="project-tech-logos" aria-label="Technologies des mini-projets JavaScript">
-              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5" loading="lazy" />HTML5</span>
-              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3" loading="lazy" />CSS3</span>
-              <span class="project-tech-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" loading="lazy" />JavaScript</span>
-            </div>
-            <p><strong>Objectif pedagogique :</strong> Mettre en pratique le DOM et les evenements JS.</p>
-            <p><strong>Competences developpees :</strong> Manipulation DOM, logique JS, debogage.</p>
-            <div class="tags"><span>JavaScript</span><span>DOM</span><span>UI</span></div>
-            <a href="https://github.com/jibril-km" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code sur GitHub</a>
+            <div class="project-head"><h3>Portfolio personnel</h3><span class="chip">Support BTS</span></div>
+            <p><strong>Contexte :</strong> Site personnel permettant de presenter mon profil BTS SIO SLAM, mes projets, mes stages, ma veille, mon CV et ma grille E5.</p>
+            <p><strong>Role :</strong> ce portfolio sert de support de presentation. Il n'est pas mon projet principal, mais il montre ma capacite a organiser et publier mon travail.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div>
+            <a href="https://github.com/jibril-km/PORTEFOLIO_JIBRIL" target="_blank" rel="noopener noreferrer" class="text-link">Voir le code sur GitHub</a>
           </article>
         </div>
       </div>
@@ -200,33 +345,38 @@
     <section id="internships" class="section">
       <div class="container reveal">
         <h2>Stages</h2>
-        <p class="section-intro">Deux stages en informatique chez Ciffreo Bona avec progression sur l'analyse et la mise en oeuvre.</p>
+        <p class="section-intro">
+          Deux experiences chez Ciffreo Bona qui m'ont permis de decouvrir un service informatique
+          et de mieux comprendre les besoins metier en entreprise.
+        </p>
 
-        <div class="timeline" aria-label="Timeline des stages">
-          <article class="timeline-item">
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="panel">
-              <h3>Ciffreo Bona - Stage 2e annee (BTS SIO)</h3>
-              <p class="muted">12 janvier 2026 au 13 fevrier 2026</p>
-              <ul class="dot-list">
-                <li>Analyse des besoins et conceptualisation d'une solution.</li>
-                <li>Structuration logique et fonctionnelle du projet.</li>
-                <li>Collaboration avec l'equipe informatique et restitution des avancees.</li>
-              </ul>
+        <div class="grid cols-2">
+          <article class="panel stage-card">
+            <div class="project-head">
+              <h3>Ciffreo Bona - Stage 2e annee</h3>
+              <span class="chip">2026</span>
             </div>
+            <p class="muted">12 janvier 2026 au 13 fevrier 2026</p>
+            <ul class="dot-list">
+              <li>Analyse du besoin et des contraintes de l'entreprise.</li>
+              <li>Preparation d'une solution adaptee a un usage interne.</li>
+              <li>Documentation des choix et restitution a l'equipe informatique.</li>
+            </ul>
+            <div class="tags"><span>Analyse</span><span>Conception</span><span>Documentation</span></div>
           </article>
 
-          <article class="timeline-item">
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="panel">
-              <h3>Ciffreo Bona - Stage 1re annee (BTS SIO)</h3>
-              <p class="muted">Mai 2025 a Juin 2025 (periode a confirmer)</p>
-              <ul class="dot-list">
-                <li>Decouverte du systeme d'information.</li>
-                <li>Developpement et analyse de donnees.</li>
-                <li>Contribution a la modernisation du systeme (AS/400).</li>
-              </ul>
+          <article class="panel stage-card">
+            <div class="project-head">
+              <h3>Ciffreo Bona - Stage 1re annee</h3>
+              <span class="chip">2025</span>
             </div>
+            <p class="muted">Mai 2025 a Juin 2025</p>
+            <ul class="dot-list">
+              <li>Decouverte du service informatique et des applications internes.</li>
+              <li>Observation de flux de donnees et d'outils professionnels.</li>
+              <li>Participation a la reflexion autour de la modernisation AS/400.</li>
+            </ul>
+            <div class="tags"><span>SI</span><span>Donnees</span><span>AS/400</span></div>
           </article>
         </div>
       </div>
@@ -234,57 +384,127 @@
 
     <section id="veille" class="section">
       <div class="container reveal">
-        <h2>Veille informatique</h2>
-        <p class="section-intro">Suivi regulier de l'actualite IT pour rester a jour sur la securite, le developpement et les bonnes pratiques.</p>
+        <h2>Veille technologique</h2>
+        <p class="section-intro">
+          Sujet suivi : les systemes legacy, comme l'AS/400, et leur modernisation en entreprise.
+        </p>
 
         <div class="grid cols-2">
-          <article class="panel">
-            <div class="project-head"><h3>Sujets suivis</h3><span class="chip">2026</span></div>
-            <ul class="dot-list">
-              <li>Cybersecurite : authentification, menaces, hygiene numerique.</li>
-              <li>Ecosysteme JavaScript et frameworks.</li>
-              <li>Accessibilite et performance web.</li>
-              <li>Intelligence artificielle appliquee au developpement.</li>
-            </ul>
+          <article class="panel veille-feature">
+            <div class="project-head">
+              <h3>AS/400 et modernisation</h3>
+              <span class="chip">Oct. 2024 - Avr. 2026</span>
+            </div>
+            <p><strong>Problematique :</strong> comment faire evoluer un ancien systeme informatique sans perturber l'activite de l'entreprise ?</p>
+            <p>
+              J'ai choisi ce sujet car certaines entreprises utilisent encore des systemes anciens comme l'AS/400.
+              Lors de mon stage chez Ciffreo Bona, j'ai pu comprendre que ces outils restent importants car ils
+              sont stables, fiables et lies au fonctionnement quotidien de l'entreprise.
+            </p>
+            <div class="tags"><span>AS/400</span><span>Legacy</span><span>Modernisation</span><span>Entreprise</span></div>
           </article>
 
           <article class="panel">
-            <div class="project-head"><h3>Sources principales</h3><span class="chip">Docs</span></div>
+            <h3>Ce que j'ai compris</h3>
             <ul class="dot-list">
-              <li>MDN Web Docs</li>
-              <li>Documentation PHP / MySQL</li>
-              <li>ANSSI et CNIL</li>
-              <li>Blog Chrome Developers et web.dev</li>
+              <li>Un systeme legacy est un ancien systeme encore utilise en entreprise.</li>
+              <li>L'AS/400 reste present car il est stable et fiable.</li>
+              <li>Le remplacer directement peut couter cher et prendre du temps.</li>
+              <li>La modernisation permet de le connecter a des outils plus recents.</li>
             </ul>
           </article>
         </div>
-        <article class="panel" style="margin-top: 1rem;">
-          <div class="project-head"><h3>Methode de veille</h3><span class="chip">Organisation</span></div>
-          <ul class="dot-list">
-            <li>Lecture hebdomadaire d'articles techniques et de documentations officielles.</li>
-            <li>Classement des informations utiles par theme (securite, front-end, back-end, IA).</li>
-            <li>Application des bonnes pratiques sur mes projets personnels et scolaires.</li>
-          </ul>
+
+        <div class="grid cols-3 veille-trends">
+          <article class="panel">
+            <div class="project-head"><h3>Systemes encore presents</h3><span class="chip">01</span></div>
+            <p>De nombreuses entreprises gardent des systemes anciens car ils gerent des donnees ou des processus essentiels.</p>
+          </article>
+
+          <article class="panel">
+            <div class="project-head"><h3>Modernisation progressive</h3><span class="chip">02</span></div>
+            <p>Les entreprises ajoutent des interfaces web, des API ou des passerelles sans tout remplacer d'un coup.</p>
+          </article>
+
+          <article class="panel">
+            <div class="project-head"><h3>Connexion au moderne</h3><span class="chip">03</span></div>
+            <p>Un systeme legacy peut etre relie a des applications web, au cloud ou a des bases de donnees plus recentes.</p>
+          </article>
+        </div>
+
+        <article class="panel veille-oral">
+          <h3>Recul personnel</h3>
+          <p>
+            Cette veille m'a permis de comprendre qu'une technologie ancienne n'est pas forcement depassee.
+            Dans une entreprise, un systeme stable peut rester essentiel. L'enjeu est donc souvent de le faire
+            evoluer progressivement plutot que de le remplacer brutalement.
+          </p>
         </article>
-        <p class="muted">Derniere mise a jour de veille informatique: avril 2026.</p>
+
+        <div class="grid cols-3 veille-sources-compact">
+          <a class="panel source-card" href="https://www.ibm.com/products/ibm-i" target="_blank" rel="noopener noreferrer">IBM i</a>
+          <a class="panel source-card" href="https://www.ibm.com/docs/en/i" target="_blank" rel="noopener noreferrer">IBM Docs</a>
+          <a class="panel source-card" href="https://www.redbooks.ibm.com/" target="_blank" rel="noopener noreferrer">IBM Redbooks</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="e5" class="section">
+      <div class="container reveal">
+        <h2>Grille E5</h2>
+        <p class="section-intro">
+          Cette section regroupe mon tableau de synthese E5 pour le BTS SIO. Il permet de presenter
+          les situations professionnelles, les competences travaillees et les productions associees
+          a mon parcours.
+        </p>
+
+        <div class="grid cols-2">
+          <article class="panel">
+            <div class="project-head">
+              <h3>Tableau de synthese</h3>
+              <span class="chip">Epreuve E5</span>
+            </div>
+            <p>
+              Le tableau de synthese sert de support pour l'epreuve E5. Il met en relation les projets,
+              les stages et les competences du referentiel BTS SIO option SLAM.
+            </p>
+            <ul class="dot-list">
+              <li>Situations professionnelles realisees en formation et en stage.</li>
+              <li>Competences mobilisees dans les projets.</li>
+              <li>Liens avec les productions et documents justificatifs.</li>
+            </ul>
+            <div class="inline-actions">
+              <a class="btn btn-primary" href="assets/Tableau_synthese_E5_Jibril.pdf" target="_blank" rel="noopener noreferrer">Ouvrir le PDF</a>
+              <a class="btn btn-outline" href="assets/Tableau_synthese_E5_Jibril.pdf" download>Telecharger</a>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="project-head">
+              <h3>Competences valorisees</h3>
+              <span class="chip">BTS SIO</span>
+            </div>
+            <ul class="dot-list">
+              <li>Gerer le patrimoine informatique.</li>
+              <li>Repondre aux incidents et aux demandes d'assistance.</li>
+              <li>Developper la presence en ligne de l'organisation.</li>
+              <li>Travailler en mode projet.</li>
+              <li>Mettre a disposition des utilisateurs un service informatique.</li>
+              <li>Organiser son developpement professionnel.</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="cv" class="section">
       <div class="container reveal">
         <h2>CV</h2>
-        <p class="section-intro">Consultez ou telechargez mon CV et ma lettre de motivation.</p>
+        <p class="section-intro">Mon CV est disponible en PDF.</p>
 
         <div class="inline-actions">
           <a class="btn btn-primary" href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>Telecharger le CV (PDF)</a>
-          <a class="btn btn-outline" href="assets/Lettre_motivation_CESI_Jibril_Khattaf_Mendil.docx" download>Telecharger la lettre</a>
-        </div>
-
-        <div class="pdf-embed" role="region" aria-label="CV integre">
-          <iframe src="assets/CV_Jibril_Khattaf_Mendil.pdf" title="CV de Jibril Khattaf Mendil" loading="lazy"></iframe>
-          <p class="muted">
-            Si le PDF ne s'affiche pas, <a href="assets/CV_Jibril_Khattaf_Mendil.pdf" download>telechargez-le ici</a>.
-          </p>
+          <a class="btn btn-outline" href="assets/CV_Jibril_Khattaf_Mendil.pdf" target="_blank" rel="noopener noreferrer">Ouvrir le CV</a>
         </div>
       </div>
     </section>
@@ -294,7 +514,7 @@
         <h2>Contact</h2>
         <p class="section-intro">Un echange, une opportunite ou une question ? Ecrivez-moi.</p>
 
-        <div class="contact-grid">
+        <div class="contact-grid contact-grid-simple">
           <article class="panel contact-panel">
             <h3>Coordonnees</h3>
             <ul class="dot-list">
@@ -308,32 +528,7 @@
               <button type="button" class="btn btn-outline" id="copyEmailBtn">Copier mon email</button>
             </div>
           </article>
-
-          <form class="panel contact-form" id="contactForm">
-            <div class="form-group">
-              <label for="name">Nom complet</label>
-              <input type="text" id="name" name="name" required placeholder="Votre nom" />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
-            </div>
-
-            <div class="form-group">
-              <label for="subject">Sujet</label>
-              <input type="text" id="subject" name="subject" required placeholder="Objet du message" />
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" required placeholder="Votre message..."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Generer l'email</button>
-            <p class="muted">Ce bouton ouvre votre application mail (pas d'envoi automatique).</p>
-            <p class="form-status" id="formStatus" aria-live="polite"></p>
-          </form>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
         </div>
       </div>
     </section>

@@ -1,0 +1,469 @@
+﻿<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Food — Snack & Cuisine Maison à Carros</title>
+    <meta name="description" content="Travel Food à Carros : tacos, burgers, sandwichs, tajines et couscous. Ouvert du lundi au samedi 07h30 - 18h00." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav">
+        <a class="brand" href="#top">
+          <span class="brand-mark">TF</span>
+          <span class="brand-text">
+            <span>Travel Food</span>
+            <small>Petit déjeuner & déjeuner</small>
+          </span>
+        </a>
+        <nav class="nav-links" data-nav>
+          <a href="#specialites">Menu</a>
+          <a href="#tajines">Tajines & Couscous</a>
+          <a href="#horaires">Horaires</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-cta">
+          <a class="btn primary" href="#contact">Commander</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Travel Food</p>
+            <h1>Petit déjeuner & déjeuner.</h1>
+            <p class="lead">
+              Tacos, burgers, sandwichs, tajines et couscous. Cuisine généreuse, service
+              rapide et menu varié.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#specialites">Voir le menu</a>
+              <a class="btn ghost" href="#contact">Réserver</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Adresse</span>
+                <span>2011 Zone d’activité de la Grave, 06510 Carros</span>
+              </div>
+              <div>
+                <span class="meta-label">Ouverture</span>
+                <span>Du lundi au samedi — 07h30 à 18h00</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="plate">
+              <img src="images/travel_food_icon.jpeg" alt="Travel Food" />
+            </div>
+            <div class="floating-card">
+              <p class="card-title">Tajines</p>
+              <p class="card-sub">Tous les mardis — aussi sur commande</p>
+            </div>
+            <div class="floating-card alt">
+              <p class="card-title">Couscous</p>
+              <p class="card-sub">Tous les jeudis — aussi sur commande</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights" id="specialites">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Menu</p>
+            <h2>Tout ce qu’il y a sur la carte.</h2>
+            <p>
+              Burgers, tacos, sandwiches, desserts, boissons et extras. Filtrez par catégorie
+              pour aller vite.
+            </p>
+          </div>
+          <div class="filter" data-filter>
+            <button class="is-active" data-filter-btn="all">Tout</button>
+            <button data-filter-btn="burgers">Burgers</button>
+            <button data-filter-btn="tacos">Tacos</button>
+            <button data-filter-btn="sandwichs">Sandwichs</button>
+            <button data-filter-btn="desserts">Desserts</button>
+            <button data-filter-btn="boissons">Boissons</button>
+            <button data-filter-btn="extras">Extras</button>
+          </div>
+          <div class="menu-group" data-menu>
+            <h3 class="menu-group-title">Burgers</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="burgers">
+              <img class="menu-photo" src="images/royal_chees.jpg" alt="Royal Cheese" />
+              <span class="tag">Burger</span>
+              <h3>Royal Cheese</h3>
+              <p>Pain brioché, salade, tomate, cheddar, steak haché, cornichon, sauce au choix.</p>
+              <div class="card-footer">
+                <span class="menu-price">Menu 11,90 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="burgers">
+              <img class="menu-photo" src="images/spicy_chicken.jpg" alt="Spicy Chicken" />
+              <span class="tag">Burger</span>
+              <h3>Spicy Chicken</h3>
+              <p>
+                Pain brioché, salade, tomate, cheddar, poulet crispy, cornichon, sauce au choix,
+                sauce piquante.
+              </p>
+              <div class="card-footer">
+                <span class="menu-price">Menu 11,90 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="burgers">
+              <img class="menu-photo" src="images/rosti_crunch.jpg" alt="Rösti Crunch" />
+              <span class="tag">Spéciaux</span>
+              <h3>Rösti Crunch</h3>
+              <p>
+                Pain brioché, salade, tomate, double cheddar, rösti, sauce signature, poulet crispy
+                ou steak haché.
+              </p>
+              <div class="card-footer">
+                <span class="menu-price">Menu 13,50 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+            </div>
+
+            <h3 class="menu-group-title">Tacos</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="tacos">
+              <img class="menu-photo" src="images/tacos.jpg" alt="Tacos" />
+              <span class="tag">Tacos</span>
+              <h3>1 viande</h3>
+              <p>Tenders, kebab, merguez, cordon bleu, viande hachée, poulet mariné.</p>
+              <div class="card-footer">
+                <span class="menu-price">9,90 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="tacos">
+              <img class="menu-photo" src="images/tacos.jpg" alt="Tacos" />
+              <span class="tag">Tacos</span>
+              <h3>2 viandes</h3>
+              <p>Choisissez 2 viandes parmi : tenders, kebab, merguez, cordon bleu, viande hachée, poulet mariné.</p>
+              <div class="card-footer">
+                <span class="menu-price">11,90 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+            </div>
+
+            <h3 class="menu-group-title">Sandwichs</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="sandwichs">
+              <img class="menu-photo" src="images/kebab.jpg" alt="Sandwich kebab" />
+              <span class="tag">Sandwich</span>
+              <h3>Kebab</h3>
+              <p>Pain ou galette au choix, viande de kebab, salade, tomate, oignons.</p>
+              <div class="card-footer">
+                <span class="menu-price">Menu 11,90 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+            </div>
+
+            <h3 class="menu-group-title">Desserts</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="desserts">
+              <img class="menu-photo" src="images/tiramisu.jpg" alt="Tiramisu" />
+              <span class="tag">Dessert</span>
+              <h3>Tiramisu</h3>
+              <p>Crème onctueuse et cacao.</p>
+              <div class="card-footer">
+                <span class="menu-price">3,80 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="desserts">
+              <img class="menu-photo" src="images/cookie.jpg" alt="Cookie" />
+              <span class="tag">Dessert</span>
+              <h3>Cookie</h3>
+              <p>Moelleux et gourmand.</p>
+              <div class="card-footer">
+                <span class="menu-price">3,80 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="desserts">
+              <img class="menu-photo" src="images/brookie.jpg" alt="Brookie" />
+              <span class="tag">Dessert</span>
+              <h3>Brookie</h3>
+              <p>Cookie + brownie.</p>
+              <div class="card-footer">
+                <span class="menu-price">3,80 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="desserts">
+              <img class="menu-photo" src="images/patisserie%20oriental.jpg" alt="Pâtisserie orientale" />
+              <span class="tag">Dessert</span>
+              <h3>Pâtisserie orientale</h3>
+              <p>Assortiment traditionnel.</p>
+              <div class="card-footer">
+                <span class="menu-price">3,80 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+            </div>
+
+            <h3 class="menu-group-title">Boissons</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="boissons">
+              <img class="menu-photo" src="images/soda.jpg" alt="Soda" />
+              <span class="tag">Boisson</span>
+              <h3>Soda</h3>
+              <p>Au choix.</p>
+              <div class="card-footer">
+                <span class="menu-price">1,70 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="boissons">
+              <img class="menu-photo" src="images/eau_gazzeuze.jpg" alt="Eau gazeuse" />
+              <span class="tag">Boisson</span>
+              <h3>Eau gazeuse</h3>
+              <p>Fraîche et pétillante.</p>
+              <div class="card-footer">
+                <span class="menu-price">1,50 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+              <article class="menu-card" data-category="boissons">
+              <img class="menu-photo" src="images/eau_plate.jpg" alt="Bouteille d’eau" />
+              <span class="tag">Boisson</span>
+              <h3>Bouteille d’eau</h3>
+              <p>Classique.</p>
+              <div class="card-footer">
+                <span class="menu-price">1,20 €</span>
+                <button class="btn tiny">Commander</button>
+              </div>
+              </article>
+            </div>
+
+            <h3 class="menu-group-title">Extras</h3>
+            <div class="menu-grid">
+              <article class="menu-card" data-category="extras">
+              <img class="menu-photo" src="images/extra.png" alt="Extras" />
+              <span class="tag">Extra</span>
+              <h3>Extras</h3>
+              <p>Mozzarella, raclette, cheddar, chèvre, miel, boursin, bacon, rösti, œuf.</p>
+              <div class="card-footer">
+                <span class="menu-price">1,50 €</span>
+                <button class="btn tiny">Ajouter</button>
+              </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights" id="tajines">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Tajines & Couscous</p>
+            <h2>Tous les mardis & jeudis.</h2>
+            <p>Disponible aussi sur commande.</p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img class="menu-photo" src="images/tagines_kefta.jpg" alt="Tajine kefta" />
+              <span class="tag">Tajine</span>
+              <h3>Kefta</h3>
+              <p>Boulettes épicées et sauce maison.</p>
+              <div class="card-footer">
+                <span class="menu-price">13,50 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/tagines_poulet.jpg" alt="Tajine poulet" />
+              <span class="tag">Tajine</span>
+              <h3>Poulet</h3>
+              <p>Poulet mijoté et épices douces.</p>
+              <div class="card-footer">
+                <span class="menu-price">14,50 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/tagines_pilpil.jpg" alt="Tajine pilpil" />
+              <span class="tag">Tajine</span>
+              <h3>Pilpil</h3>
+              <p>Saveurs relevées et parfumées.</p>
+              <div class="card-footer">
+                <span class="menu-price">14,90 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/tagines_agneau.jpg" alt="Tajine agneau" />
+              <span class="tag">Tajine</span>
+              <h3>Agneau</h3>
+              <p>Agneau fondant et aromates.</p>
+              <div class="card-footer">
+                <span class="menu-price">14,90 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/tagines_legumes.jpg" alt="Tajine légumes" />
+              <span class="tag">Tajine</span>
+              <h3>Légumes</h3>
+              <p>Version végétarienne.</p>
+              <div class="card-footer">
+                <span class="menu-price">12,00 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/couscous_poulet.jpg" alt="Couscous poulet" />
+              <span class="tag">Couscous</span>
+              <h3>Poulet</h3>
+              <p>Semoule fine et légumes.</p>
+              <div class="card-footer">
+                <span class="menu-price">13,80 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img class="menu-photo" src="images/couscous_legumes.jpg" alt="Couscous légumes" />
+              <span class="tag">Couscous</span>
+              <h3>Légumes</h3>
+              <p>Version végétarienne.</p>
+              <div class="card-footer">
+                <span class="menu-price">12,00 €</span>
+                <button class="btn tiny">Réserver</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours" id="horaires">
+        <div class="container hours-grid">
+          <div>
+            <p class="eyebrow">Horaires</p>
+            <h2>Ouvert du lundi au samedi.</h2>
+            <p>Service continu pour le petit déjeuner et le déjeuner.</p>
+          </div>
+          <div class="hours-card">
+            <div class="hours-row"><span>Lundi - Samedi</span><span>07h30 - 18h00</span></div>
+            <div class="hours-row"><span>Dimanche</span><span>Fermé</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Commandes & informations.</h2>
+            <p>Appelez-nous ou passez sur place.</p>
+            <div class="contact-cards">
+              <div class="contact-card">
+                <h4>Téléphone</h4>
+                <p>07.82.06.44.60</p>
+              </div>
+              <div class="contact-card">
+                <h4>Instagram</h4>
+                <p>@travelfood06510</p>
+              </div>
+              <div class="contact-card">
+                <h4>Adresse</h4>
+                <p>2011 Zone d’activité de la Grave, 06510 Carros</p>
+              </div>
+            </div>
+            <div class="contact-actions">
+              <a class="btn primary" href="tel:+33782064460">Appeler maintenant</a>
+              <a
+                class="btn ghost"
+                href="https://wa.me/33782064460?text=Bonjour%20je%20souhaite%20commander%20chez%20Travel%20Food."
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/maqdwrzj"
+            method="POST"
+          >
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </label>
+            <label>
+              Téléphone
+              <input type="tel" name="phone" placeholder="07 82 06 44 60" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Votre commande ou question" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">Envoyer</button>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="location">
+        <div class="container">
+          <div class="location-card">
+            <div>
+              <p class="eyebrow">Localisation</p>
+              <h2>Travel Food — Carros.</h2>
+              <p>2011 Zone d’activité de la Grave, 06510 Carros</p>
+              <p class="muted">Halal</p>
+            </div>
+            <a
+              class="map map-link"
+              href="https://www.google.com/maps/search/?api=1&query=2011%20Zone%20d%E2%80%99activit%C3%A9%20de%20la%20Grave%2C%2006510%20Carros"
+              target="_blank"
+              rel="noopener"
+              aria-label="Ouvrir la localisation sur Google Maps"
+            >
+              <div class="map-pin"></div>
+              <span>Ouvrir la carte</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Travel Food</h3>
+          <p>Petit déjeuner & déjeuner.</p>
+        </div>
+        <div>
+          <span class="footer-title">Liens rapides</span>
+          <a href="#specialites">Menu</a>
+          <a href="#formules">Formules</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <span class="footer-title">Contact</span>
+          <span>07.82.06.44.60</span>
+          <span>@travelfood06510</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Travel Food. Tous droits réservés.</span>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

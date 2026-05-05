@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">DKR Locations - espace commercial</title>
+  <desc id="desc">Maquette de l'espace commercial DKR Locations avec statistiques et liste de vehicules.</desc>
+  <rect width="1600" height="900" fill="#191919"/>
+  <rect width="1600" height="64" fill="#090909"/>
+  <text x="16" y="41" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#fff">DKR Locations - Espace Commercial</text>
+  <text x="1125" y="36" font-family="Arial, sans-serif" font-size="16" fill="#fff">Connecte en tant que : commercial@dkr.com (Commercial)</text>
+  <rect x="1490" y="9" width="92" height="42" rx="4" fill="#555"/>
+  <text x="1536" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#fff">Deconnexion</text>
+  <g font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="310" y="118" width="184" height="108" rx="7" fill="#292929" stroke="#444"/>
+    <text x="402" y="150" font-size="15" fill="#08cfff">TOTAL VEHICULES</text>
+    <text x="402" y="200" font-size="34" fill="#08cfff">50</text>
+    <rect x="512" y="118" width="184" height="108" rx="7" fill="#292929" stroke="#444"/>
+    <text x="604" y="150" font-size="15" fill="#08cfff">DISPONIBLE</text>
+    <text x="604" y="200" font-size="34" fill="#08cfff">30</text>
+    <rect x="714" y="118" width="184" height="108" rx="7" fill="#292929" stroke="#444"/>
+    <text x="806" y="150" font-size="15" fill="#08cfff">RESERVE</text>
+    <text x="806" y="200" font-size="34" fill="#08cfff">0</text>
+    <rect x="916" y="118" width="184" height="108" rx="7" fill="#292929" stroke="#444"/>
+    <text x="1008" y="150" font-size="15" fill="#08cfff">EN LOCATION</text>
+    <text x="1008" y="200" font-size="34" fill="#08cfff">0</text>
+    <rect x="1118" y="118" width="184" height="108" rx="7" fill="#292929" stroke="#444"/>
+    <text x="1210" y="150" font-size="15" fill="#08cfff">EN MAINTENANCE</text>
+    <text x="1210" y="200" font-size="34" fill="#08cfff">5</text>
+  </g>
+  <rect x="310" y="260" width="990" height="520" rx="8" fill="#292929" stroke="#3b3b3b"/>
+  <text x="342" y="318" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#08cfff">Liste des vehicules</text>
+  <line x1="342" y1="339" x2="525" y2="339" stroke="#08cfff" stroke-width="2"/>
+  <rect x="342" y="390" width="932" height="50" fill="#080808"/>
+  <line x1="342" y1="440" x2="1274" y2="440" stroke="#08cfff" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" fill="#fff" font-size="16">
+    <text x="354" y="423" font-weight="700">Marque</text>
+    <text x="485" y="423" font-weight="700">Modele</text>
+    <text x="705" y="423" font-weight="700">Immatriculation</text>
+    <text x="850" y="423" font-weight="700">Tarif</text>
+    <text x="950" y="423" font-weight="700">Kilometrage</text>
+    <text x="1068" y="423" font-weight="700">Statut</text>
+    <text x="1195" y="423" font-weight="700">Actions</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#fff">
+    <text x="354" y="486">Lamborghini</text><text x="485" y="486">Revuelto</text><text x="705" y="486">DK-0050-FF</text><text x="850" y="486">6,402.86 EUR</text><text x="950" y="486">200 km</text><text x="1068" y="486">LOUE</text>
+    <rect x="1190" y="462" width="58" height="30" rx="4" fill="#ff9800"/><text x="1219" y="482" text-anchor="middle" font-size="12">Modifier</text>
+    <line x1="342" y1="510" x2="1274" y2="510" stroke="#444"/>
+    <text x="354" y="548">Lamborghini</text><text x="485" y="548">Aventador LP 780-4</text><text x="705" y="548">DK-0049-FF</text><text x="850" y="548">5,335.72 EUR</text><text x="950" y="548">400 km</text>
+    <rect x="1060" y="526" width="94" height="28" rx="4" fill="#22b95f"/><text x="1107" y="545" text-anchor="middle" font-size="12" font-weight="700">DISPONIBLE</text>
+    <rect x="1190" y="524" width="58" height="30" rx="4" fill="#ff9800"/><text x="1219" y="544" text-anchor="middle" font-size="12">Modifier</text>
+    <line x1="342" y1="572" x2="1274" y2="572" stroke="#444"/>
+    <text x="354" y="610">Lamborghini</text><text x="485" y="610">Huracan Tecnica</text><text x="705" y="610">DK-0048-FF</text><text x="850" y="610">2,972.76 EUR</text><text x="950" y="610">850 km</text>
+    <rect x="1060" y="588" width="94" height="28" rx="4" fill="#22b95f"/><text x="1107" y="607" text-anchor="middle" font-size="12" font-weight="700">DISPONIBLE</text>
+    <rect x="1190" y="586" width="58" height="30" rx="4" fill="#ff9800"/><text x="1219" y="606" text-anchor="middle" font-size="12">Modifier</text>
+  </g>
+</svg>
